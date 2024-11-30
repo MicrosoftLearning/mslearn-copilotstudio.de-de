@@ -1,6 +1,6 @@
 ---
 lab:
-  title: 'Lab: Bereitstellen mithilfe von Azure Resource Manager-Vorlagen'
+  title: 'Lab: Bereitstellen von Azure Resource Manager-Vorlagen'
   type: Answer Key
   module: 'Module 1: Exploring Azure Resource Manager'
 ---
