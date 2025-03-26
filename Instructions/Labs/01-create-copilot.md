@@ -1,11 +1,11 @@
 ---
 lab:
-  title: Erstellen eines Copiloten mit Copilot Studio
+  title: Erstellen eines Agenten mit Copilot Studio
 ---
 
-# Erstellen eines Copiloten mit Copilot Studio
+# Erstellen eines Agenten mit Copilot Studio
 
-In dieser Übung erstellen Sie mithilfe von Copilot Studio einen einfachen Copiloten, der Fragen von Mitarbeitenden zu Spesenrichtlinien in einem fiktiven Unternehmen beantworten kann.
+In dieser Übung erstellen Sie mithilfe von Copilot Studio einen einfachen Agent, der Fragen von Mitarbeitenden zu Spesenrichtlinien in einem fiktiven Unternehmen beantworten kann.
 
 Diese Übung dauert etwa **45** Minuten.
 
@@ -13,7 +13,7 @@ Diese Übung dauert etwa **45** Minuten.
 
 ## Erstellen eines Copiloten
 
-Beginnen wir damit, mit Copilot Studio einen neuen Copiloten zu erstellen. Der Copilot verfügt zunächst über sehr begrenzte Funktionen, die Sie später in der Übung erweitern werden.
+Beginnen wir damit, mit Copilot Studio einen neuen Agenten zu erstellen. Der Agent verfügt zunächst über sehr begrenzte Funktionen, die Sie später in der Übung erweitern werden.
 
 1. Navigieren Sie in einem Webbrowser zu [Copilot Studio](https://copilotstudio.microsoft.com/) unter `https://copilotstudio.microsoft.com/` und melden Sie sich mit Ihrem Arbeits- oder Schulkonto an, wenn Sie dazu aufgefordert werden. Überspringen Sie alle Begrüßungsnachrichten.
 
