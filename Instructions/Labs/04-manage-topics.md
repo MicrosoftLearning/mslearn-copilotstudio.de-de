@@ -41,7 +41,7 @@ In dieser Übung entfernen Sie Themen in einem Copiloten.
 
 1. Wählen Sie die Schaltfläche **Testen** oben rechts auf dem Bildschirm aus, um das Bedienfeld zu schließen, falls es geöffnet ist.
 
-1. Wählen Sie **Copiloten** aus dem linken Navigationsbereich.
+1. Wählen Sie **Agenten** im linken Navigationsbereich aus.
 
     ![Copiloten im Copilot Studio-Portal.](../media/copilot-studio-copilots.png)
 

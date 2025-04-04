@@ -45,7 +45,7 @@ Microsoft Copilot Studio kann mithilfe von Power Automate-Cloudflows auf Daten i
 
     ![Screenshot von Schritt 1 zum Hinzufügen einer Aktion.](../media/add-action-step-1.png)
 
-1. Wählen Sie den Filter **Flow** und dann **Neuen Flow erstellen** aus.
+1. Wählen Sie den **Flow-Filter** aus, und wählen Sie dann **Flow mit Power Automate für Desktop ausführen** aus.
 
 1. Melden Sie sich bei Power Automate an, wenn Sie dazu aufgefordert werden.
 
