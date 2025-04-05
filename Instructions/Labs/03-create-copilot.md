@@ -43,7 +43,7 @@ In dieser Übung greifen Sie auf das Microsoft Copilot Studio-Portal und die Umg
 
 ### Aufgabe 1.2: Erstellen eines Copiloten
 
-1. Wählen Sie **Erstellen** im linken Navigationsbereich und wählen Sie die Kachel **Neuer Agent**.
+1. Wählen Sie im linken Navigationsbereich **Erstellen** aus und wählen Sie oben rechts die Kachel **Neuer Agent** und **Konfiguration überspringen** aus.
 
     ![Erstellen im Copilot Studio-Portal.](../media/create-copilot-agent.png)
 
