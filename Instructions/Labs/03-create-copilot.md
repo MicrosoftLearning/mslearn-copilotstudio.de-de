@@ -1,37 +1,37 @@
 ---
 lab:
-  title: Erstellen eines ersten Copiloten
-  module: Build an initial copilot with Microsoft Copilot Studio
+  title: Erstellen eines ersten Agents
+  module: Build an initial agent with Microsoft Copilot Studio
 ---
 
-# Erstellen eines ersten Copiloten
+# Erstellen eines ersten Agents
 
 ## Szenario
 
 Dieses Lab deckt Folgendes ab:
 
-- Erstellen und Benennen eines neuen Copiloten
-- Hinzufügen einer Beschreibung der Aufgaben des Copiloten
+- Erstellen und Benennen eines Agents
+- Hinzufügen einer Beschreibung der Aufgaben des Agents
 - Konfigurieren von generativen KI-Antworten
 
 ## Lernziele
 
-- Generieren von Skripten mit Copilot und natürlicher Sprache
-- Konfigurieren von generative KI-Antworten für einen Copiloten
+- Wie man einen Agent mithilfe natürlicher Sprache erstellt
+- Konfigurieren von generative KI-Antworten für einen Agent
 
 ## Weiterführende Schritte des Lab
 
-- Erstellen eines neuen Copiloten
-- Sagen Sie Ihrem Copiloten, was seine Hauptaufgabe ist wie er sich verhalten soll
+- Erstellen eines neuen Agents
+- Teilen Sie Ihrem Agent mit, was sein Hauptzweck ist und wie er handeln soll.
 - Hinzufügen von generativen KI-Anweisungen
   
 ## Voraussetzungen
 
 - Erfordert abgeschlossenes **Lab: Importieren der Dataverse-Lösung**
 
-## Übung 1: Erstellen eines Copiloten
+## Übung 1: Erstellen eines Agents
 
-In dieser Übung greifen Sie auf das Microsoft Copilot Studio-Portal und die Umgebung für Fachkräfte in der Entwicklung zu und erstellen einen neuen Copiloten.
+In dieser Übung greifen Sie auf das Microsoft Copilot Studio-Portal und die Umgebung für Fachkräfte in der Entwicklung zu und erstellen einen neuen Agent.
 
 ### Aufgabe 1.1: Microsoft Copilot Studio-Portal
 
@@ -41,7 +41,7 @@ In dieser Übung greifen Sie auf das Microsoft Copilot Studio-Portal und die Umg
 
 1. Stellen Sie sicher, dass Sie sich in der entsprechenden Umgebung befinden.
 
-### Aufgabe 1.2: Erstellen eines Copiloten
+### Aufgabe 1.2: Erstellen eines Agents
 
 1. Wählen Sie im linken Navigationsbereich **Erstellen** aus und wählen Sie oben rechts die Kachel **Neuer Agent** und **Konfiguration überspringen** aus.
 
@@ -51,7 +51,7 @@ In dieser Übung greifen Sie auf das Microsoft Copilot Studio-Portal und die Umg
 
 1. Geben Sie in das Textfeld **Beschreibung** **`Create bookings for real estate properties`** ein.
 
-1. Geben Sie in das Textfeld **Anweisungen** **`Create a copilot for topics relating to creating bookings for real estate properties`** ein.
+1. Geben Sie in das Textfeld **Anweisungen** **`Create an agent for topics relating to creating bookings for real estate properties`** ein.
 
 1. Oben sollte **Sprache** auf **Englisch (en-US)** festgelegt werden.
 
@@ -77,7 +77,7 @@ Lassen Sie dieses Fenster geöffnet.
 
 ## Übung 2: Hinzufügen von generativen KI-Antworten
 
-In dieser Übung greifen Sie auf das Microsoft Copilot Studio-Portal zu und fügen Wissen hinzu, mit dem der Copilot Fragen beantworten wird, indem Sie generative KI verwenden.
+In dieser Übung greifen Sie auf das Microsoft Copilot Studio-Portal zu und fügen Wissen hinzu, mit dem der Agent Fragen beantworten wird, indem Sie generative KI verwenden.
 
 ### Aufgabe 2.1: Aktivieren von generativen KI-Antworten
 

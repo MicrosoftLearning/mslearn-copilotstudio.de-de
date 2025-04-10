@@ -11,7 +11,7 @@ Diese Übung dauert etwa **45** Minuten.
 
 > **Hinweis:** Für diese Übung wird davon ausgegangen, dass Sie bereits über eine Lizenz für Copilot Studio verfügen oder sich für eine [kostenlose Testversion](https://go.microsoft.com/fwlink/p/?linkid=2252605) angemeldet haben.
 
-## Erstellen eines Copiloten
+## Einen Agent erstellen
 
 Beginnen wir damit, mit Copilot Studio einen neuen Agenten zu erstellen. Der Agent verfügt zunächst über sehr begrenzte Funktionen, die Sie später in der Übung erweitern werden.
 
@@ -50,7 +50,7 @@ Beginnen wir damit, mit Copilot Studio einen neuen Agenten zu erstellen. Der Age
 1. Setzen Sie das Gespräch fort, um Ihren Agent zu definieren, der:
     - Einen angemessenen Namen hat
     - Einen freundlichen, professionellen Tonfall verwendet.
-    - Verwenden Sie keine öffentlich zugänglichen Websites, um ihre Informationen zu erhalten (Sie fügen später eine Wissensquelle für Ihren Copiloten hinzu).
+    - Keine öffentlich zugänglichen Websites verwendet, um an Informationen zu gelangen (Sie werden Ihrem Agent später eine Wissensquelle hinzufügen).
     - Vermeiden Sie jegliche Steuerberatung.
     
     Wenn Sie fertig sind, wird neben der Unterhaltung, die zum Erstellen verwendet wird, eine Vorschau der Chatoberfläche für Ihren Agent angezeigt.
@@ -128,7 +128,7 @@ Sie können *Themen* verwenden, um explizite Antworten auf *Trigger* zu geben, w
 
     Das neue Thema sollte durch Sätze getriggert werden, die nach einem Kontakt für Ausgaben fragen, und mit einer Nachricht antworten, die die Benutzenden auffordern, eine E-Mail an die entsprechende Adresse zu senden.
 
-1. Verwenden Sie die Schaltfläche **Speichern** (oben rechts), um das neue Thema in Ihrem Copiloten zu speichern.
+1. Verwenden Sie die Schaltfläche **Speichern** (oben rechts), um das neue Thema in Ihrem Agent zu speichern.
 
 1. Öffnen Sie das Bedienfeld **Test** und geben Sie den folgenden Prompt ein:
 

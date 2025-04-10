@@ -16,7 +16,7 @@ Dieses Lab deckt Folgendes ab:
 
 ## Lernziele
 
-- Konfigurieren von Copilot-Themen
+- Konfigurieren von Agent-Themen
 
 ## Weiterführende Schritte des Lab
 
@@ -27,13 +27,13 @@ Dieses Lab deckt Folgendes ab:
   
 ## Voraussetzungen
 
-- Erfordert abgeschlossenes **Lab: Erstellen eines anfänglichen Copiloten**
+- Erfordert abgeschlossenes **Lab: Erstellen eines anfänglichen Agents**
 
 ## Ausführliche Schritte
 
 ## Übung 1: Entfernen von Themen
 
-In dieser Übung entfernen Sie Themen in einem Copiloten.
+In dieser Übung werden Sie Themen aus einem Agent entfernen.
 
 ### Aufgabe 1.1: Deaktivieren von Themen
 
@@ -43,9 +43,9 @@ In dieser Übung entfernen Sie Themen in einem Copiloten.
 
 1. Wählen Sie **Agenten** im linken Navigationsbereich aus.
 
-    ![Copiloten im Copilot Studio-Portal.](../media/copilot-studio-copilots.png)
+    ![Agents im Copilot Studio-Portal.](../media/copilot-studio-copilots.png)
 
-1. Wählen Sie den Copiloten, den Sie im vorherigen Lab erstellt haben.
+1. Wählen Sie den Agent, den Sie im vorherigen Lab erstellt haben.
 
 1. Wählen Sie die Registerkarte **Themen**.
 
@@ -57,7 +57,7 @@ In dieser Übung entfernen Sie Themen in einem Copiloten.
 
 ## Übung 2: Erstellen von Themen mit natürlicher Sprache
 
-In dieser Übung werden Sie Themen in einem Copilot erstellen und Triggerausdrücke hinzufügen.
+In dieser Übung erstellen Sie Themen in einem Agent und fügen Triggerausdrücke hinzu.
 
 ### Aufgabe 2.1: Hinzufügen eines Themas mithilfe eines Copiloten
 
