@@ -33,13 +33,13 @@ Auf Variablen kann von anderen Themen zugegriffen werden.
 
 ### Aufgabe 1.1: Konfigurieren des Bereichs der Variablen
 
-1. Navigieren Sie zum Microsoft Copilot Studio-Portal `https://copilotstudio.microsoft.com` und stellen Sie sicher, dass Sie sich in der entsprechenden Umgebung befinden.
+1. Navigieren Sie zum Microsoft Studio-Portal `https://studio.microsoft.com` und stellen Sie sicher, dass Sie sich in der entsprechenden Umgebung befinden.
 
 1. Wählen Sie die Schaltfläche **Testen** oben rechts auf dem Bildschirm aus, um das Bedienfeld zu schließen, falls es geöffnet ist.
 
-1. Wählen Sie **Copiloten** aus dem linken Navigationsbereich.
+1. Wählen Sie **Agenten** im linken Navigationsbereich aus.
 
-1. Wählen Sie den Copiloten aus, den Sie in der früheren Übung erstellt haben.
+1. Wählen Sie den Agent aus, den Sie im vorherigen Lab erstellt haben.
 
 1. Wählen Sie die Registerkarte **Themen**.
 
@@ -123,7 +123,7 @@ Der Unterhaltungsflow in einem Thema kann manuell erstellt werden, indem Knoten 
 
 1. Wählen Sie **Speichern**.
 
-### Aufgabe 2.5: Testen des Copiloten
+### Aufgabe 2.5 – Testen des Agents
 
 1. Falls noch nicht geöffnet, wählen Sie die Schaltfläche **Test** in der oberen rechten Ecke des Bildschirms, um das Bedienfeld für Tests zu öffnen.
 
@@ -135,11 +135,11 @@ Der Unterhaltungsflow in einem Thema kann manuell erstellt werden, indem Knoten 
 
 1. Wählen Sie das Symbol **Neue Konversation beginnen** oben auf dem Bedienfeld für Tests.
 
-1. Wenn die Meldung **Gesprächsbeginn** erscheint, wird Ihr Copilot ein Gespräch beginnen. Geben Sie als Antwort einen Triggerausdruck für das Thema ein, das Sie erstellt haben.
+1. Wenn die Meldung **Gesprächsbeginn** erscheint, wird Ihr Agent ein Gespräch beginnen. Geben Sie als Antwort einen Triggerausdruck für das Thema ein, das Sie erstellt haben.
 
     `I want to book a real estate showing`
 
-1. Der Copilot antwortet mit der Frage „Wie heißen Sie?“, wie in der folgenden Abbildung gezeigt.
+1. Der Agent antwortet mit der Frage „Wie heißen Sie?“ wie in der folgenden Abbildung gezeigt.
 
     ![Screenshot der Konversations-Startnachricht und ‑antwort](../media/conversation-start-message.png)
 
@@ -158,7 +158,7 @@ Der Unterhaltungsflow in einem Thema kann manuell erstellt werden, indem Knoten 
 
     ![Screenshot der adaptiven Karte mit den eingegebenen Informationen](../media/adaptive-card-information.png)
 
-## Übung 3: Bereitstellen von Copilot
+## Übung 3 – Bereitstellen des Agents
 
 ### Aufgabe 3.1: Konfigurieren der Authentifizierung
 
@@ -178,7 +178,7 @@ Der Unterhaltungsflow in einem Thema kann manuell erstellt werden, indem Knoten 
 
 1. Wählen Sie das **X** in der oberen rechten Ecke, um die **Einstellungen** zu schließen.
 
-### Aufgabe 3.2: Veröffentlichen des Copiloten
+### Aufgabe 3.2 – Veröffentlichen des Agents
 
 1. Wählen Sie **Veröffentlichen** in der oberen rechten Ecke und dann erneut **Veröffentlichen**.
 
@@ -188,4 +188,4 @@ Der Unterhaltungsflow in einem Thema kann manuell erstellt werden, indem Knoten 
 
 1. Geben Sie in das Textfeld **Nachricht eingeben** **`I want to book a property`** ein.
 
-1. Beantworten Sie die Prompts, um den Copiloten zu testen.
+1. Beantworten Sie die Prompts, um den Agent zu testen.

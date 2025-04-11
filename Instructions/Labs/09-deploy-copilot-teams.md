@@ -1,25 +1,25 @@
 ---
 lab:
-  title: Bereitstellen von Copilot für Microsoft Teams
-  module: Create a copilot with Microsoft Copilot Studio and Dataverse for Teams
+  title: Bereitstellen eines Agents in Microsoft Teams
+  module: Create an agent with Microsoft Copilot Studio and Dataverse for Teams
 ---
 
-# Bereitstellen von Copilot für Microsoft Teams
+# Bereitstellen eines Agents in Microsoft Teams
 
 ## Szenario
 
 Dieses Lab deckt Folgendes ab:
 
-- Erstellen von Copilotaktionen
+- Erstellen von Agentaktionen
 
 ## Lernziele
 
-- Bereitstellen eines Copiloten für Microsoft Teams
+- Bereitstellen eines Agents in Microsoft Teams
 
 ## Weiterführende Schritte des Lab
 
 - Veröffentlichen
-- Bereitstellen von Copilot für Microsoft Teams
+- Bereitstellen eines Agents in Microsoft Teams
   
 ## Voraussetzungen
 
@@ -27,15 +27,15 @@ Dieses Lab deckt Folgendes ab:
 
 ## Ausführliche Schritte
 
-## Übung 1: Veröffentlichen des Copiloten
+## Übung 1 – Veröffentlichen des Agents
 
 ### Aufgabe 1.1: Veröffentlichen der neuesten Inhalte
 
 1. Navigieren Sie zum Microsoft Copilot Studio-Portal `https://copilotstudio.microsoft.com` und stellen Sie sicher, dass Sie sich in der entsprechenden Umgebung befinden.
 
-1. Wählen Sie **Copiloten** aus dem linken Navigationsbereich.
+1. Wählen Sie **Agenten** im linken Navigationsbereich aus.
 
-1. Wählen Sie den Copiloten aus, den Sie in der früheren Übung erstellt haben.
+1. Wählen Sie den Agent aus, den Sie im vorherigen Lab erstellt haben.
 
 1. Wählen Sie **Veröffentlichen** und wählen Sie erneut **Veröffentlichen** aus.
 
@@ -45,11 +45,11 @@ Dieses Lab deckt Folgendes ab:
 
 ## Übung 2: Kanäle
 
-Wenn Ihr Copilot veröffentlicht wurde, können Sie Ihren Copiloten für Benutzende in Teams zur Verfügung stellen. Auf diese Weise können Sie, Ihre Teamkollegen bzw. -kolleginnen und Ihre breitere Organisation damit interagieren.
+Wenn Ihr Agent veröffentlicht wurde, können Sie Ihren Agent für Benutzende in Teams zur Verfügung stellen. Auf diese Weise können Sie, Ihre Teamkollegen bzw. -kolleginnen und Ihre breitere Organisation damit interagieren.
 
 ### Aufgabe 2.1: Microsoft Teams-Kanal
 
-1. Wenn Ihr Copilot in Microsoft Copilot Studio geöffnet ist, wählen Sie die Registerkarte **Kanäle**.
+1. Wenn Ihr Agent in Microsoft Copilot Studio geöffnet ist, wählen Sie die Registerkarte **Kanäle**.
 
     ![Screenshot der Registerkarte „Kanäle“.](../media/channels.png)
 
@@ -95,6 +95,6 @@ Wenn Ihr Copilot veröffentlicht wurde, können Sie Ihren Copiloten für Benutze
 
     ![Screenshot des Dialogs zum Hinzufügen der App zu Teams.](../media/teams-add-app.png)
 
-1. Testen Sie den Copilot.
+1. Testen des Agents.
 
-    ![Screenshot des Copiloten in Teams.](../media/teams-copilot.png)
+    ![Screenshot des Agents in Teams.](../media/teams-copilot.png)

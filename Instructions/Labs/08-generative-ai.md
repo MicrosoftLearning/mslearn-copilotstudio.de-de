@@ -10,11 +10,11 @@ lab:
 
 Dieses Lab deckt Folgendes ab:
 
-- Erstellen von Copilotaktionen
+- Erstellen von Agentaktionen
 
 ## Lernziele
 
-- Verwendung der Funktion „Generative Antworten“, um die Antworten Ihres Copiloten zu verbessern
+- Verwendung der Funktion „Generative Antworten“, um die Antworten Ihres Agents zu verbessern.
 
 ## Weiterführende Schritte des Lab
 
@@ -23,7 +23,7 @@ Dieses Lab deckt Folgendes ab:
   
 ## Voraussetzungen
 
-- Erfordert abgeschlossenes **Lab: Erstellen von Copilot-Aktionen**
+- Erfordert abgeschlossenes **Lab: Erstellen von Agent-Aktionen**
 
 ## Ausführliche Schritte
 
@@ -33,7 +33,7 @@ Dieses Lab deckt Folgendes ab:
 
 1. Wenn es noch nicht geöffnet ist, rufen Sie das Microsoft Copilot Studio-Portal `https://copilotstudio.microsoft.com` auf und stellen Sie sicher, dass Sie sich in der entsprechenden Umgebung befinden.
 
-1. Wählen Sie **Copiloten** aus der linken Navigation.
+1. Wählen Sie **Agents** in der linken Navigation aus.
 
 1. Wählen Sie den **Immobilienbuchungsdienst** aus, den Sie im vorherigen Lab erstellt haben.
 
@@ -41,7 +41,7 @@ Dieses Lab deckt Folgendes ab:
 
 1. Wählen Sie die Registerkarte **Generative KI**.
 
-1. Wählen Sie **Generativ** unter **Wie sollte Ihr Copilot mit Menschen interagieren?**.
+1. Wählen Sie **Generativ** unter **Wie sollte Ihr Agent mit Menschen interagieren?**.
 
 1. Wählen Sie **Mittel – Ausgewogener** für **Wie streng soll die Inhaltsmoderation sein?**.
 
@@ -159,7 +159,7 @@ Dieses Lab deckt Folgendes ab:
 
 ## Übung 4: Testen generativer KI
 
-### Aufgabe 4.1: Testen des Copilot-Wissens
+### Aufgabe 4.1: Testen des Agent-Wissens
 
 1. Falls noch nicht geöffnet, wählen Sie die Schaltfläche **Test** in der oberen rechten Ecke des Bildschirms, um das Bedienfeld für Tests zu öffnen.
 
@@ -171,4 +171,4 @@ Dieses Lab deckt Folgendes ab:
 
 1. Wählen Sie das Symbol **Neue Konversation beginnen** oben auf dem Bedienfeld für Tests.
 
-1. Beobachten Sie den Copiloten, und sehen Sie, wie er die Wissensquellen verwendet.
+1. Beobachten Sie den Agent, und stellen Sie fest, wie er die Wissensquellen verwendet.

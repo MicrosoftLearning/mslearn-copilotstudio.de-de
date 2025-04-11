@@ -1,6 +1,6 @@
 ---
 lab:
-  title: Erstellen von Copilotaktionen
+  title: Erstellen von Agentaktionen
   module: Enhance Microsoft Copilot Studio copilots
 ---
 
@@ -10,7 +10,7 @@ lab:
 
 Dieses Lab deckt Folgendes ab:
 
-- Erstellen von Copilotaktionen
+- Erstellen von Agentaktionen
 
 ## Lernziele
 
@@ -18,8 +18,8 @@ Dieses Lab deckt Folgendes ab:
 
 ## Weiterführende Schritte des Lab
 
-- Erstellen eines Power Automate-Cloudflows zum Abrufen von Dataverse-Daten mit einer Copilot-Aktion
-- Erstellen eines Power Automate-Cloudflows zum Erstellen von Dataverse-Daten mit einer Copilot-Aktion
+- Erstellen eines Power Automate-Cloudflows zum Abrufen von Dataverse-Daten mit einer Agent-Aktion
+- Erstellen eines Power Automate-Cloudflows zum Erstellen von Dataverse-Daten mit einer Agent-Aktion
   
 ## Voraussetzungen
 
@@ -27,7 +27,7 @@ Dieses Lab deckt Folgendes ab:
 
 ## Ausführliche Schritte
 
-## Übung 1: Erstellen einer Copilot-Aktion zum Abrufen von Daten aus Dataverse
+## Übung 1: Erstellen einer Agent-Aktion zum Abrufen von Daten aus Dataverse
 
 Microsoft Copilot Studio kann mithilfe von Power Automate-Cloudflows auf Daten in Microsoft Dataverse zugreifen.
 
@@ -35,7 +35,7 @@ Microsoft Copilot Studio kann mithilfe von Power Automate-Cloudflows auf Daten i
 
 1. Navigieren Sie zum Microsoft Copilot Studio-Portal `https://copilotstudio.microsoft.com` und stellen Sie sicher, dass Sie sich in der entsprechenden Umgebung befinden.
 
-1. Wählen Sie **Copiloten** aus dem linken Navigationsbereich.
+1. Wählen Sie **Agenten** im linken Navigationsbereich aus.
 
 1. Wählen Sie den **Immobilienbuchungsdienst** aus, den Sie im vorherigen Lab erstellt haben.
 
@@ -129,7 +129,7 @@ Microsoft Copilot Studio kann mithilfe von Power Automate-Cloudflows auf Daten i
 
 1. Warten Sie, bis der Speichervorgang abgeschlossen ist, und schließen Sie dann die Power Automate-Registerkarte.
 
-### Aufgabe 1.2: Hinzufügen einer Copilot-Aktion zum Abrufen einer Immobilie
+### Aufgabe 1.2: Hinzufügen einer Agent-Aktion zum Abrufen einer Immobilie
 
 1. Wählen Sie **Aktualisieren** im Copilot Studio-Dialogfeld aus, um den neuen Flow zu sehen.
 
@@ -143,7 +143,7 @@ Microsoft Copilot Studio kann mithilfe von Power Automate-Cloudflows auf Daten i
 
 1. Klicken Sie auf **Fertig stellen**.
 
-### Aufgabe 1.3: Hinzufügen der Copilot-Aktion „Eigenschaft abrufen“ zum Thema
+### Aufgabe 1.3: Hinzufügen der Agent-Aktion „Eigenschaft abrufen“ zum Thema
 
 1. Wählen Sie die Registerkarte **Themen**.
 
@@ -169,7 +169,7 @@ Microsoft Copilot Studio kann mithilfe von Power Automate-Cloudflows auf Daten i
 
 1. Wählen Sie **Speichern**.
 
-## Übung 2: Erstellen einer Copilot-Aktion zum Erstellen von Daten in Dataverse
+## Übung 2: Erstellen einer Agent-Aktion zum Erstellen von Daten in Dataverse
 
 Microsoft Copilot Studio kann Daten in Microsoft Dataverse mithilfe von Power Automate-Cloudflows erstellen.
 
@@ -233,7 +233,7 @@ Microsoft Copilot Studio kann Daten in Microsoft Dataverse mithilfe von Power Au
 
 1. Warten Sie, bis der Speichervorgang abgeschlossen ist, und schließen Sie dann die Power Automate-Registerkarte.
 
-### Aufgabe 2.2: Hinzufügen einer Copilot-Aktion zum Erstellen einer Buchungsanfrage
+### Aufgabe 2.2: Hinzufügen einer Agent-Aktion zum Erstellen einer Buchungsanfrage
 
 1. Wählen Sie **Aktualisieren** im Copilot Studio-Dialogfeld aus, um den neuen Flow zu sehen.
 
@@ -245,7 +245,7 @@ Microsoft Copilot Studio kann Daten in Microsoft Dataverse mithilfe von Power Au
 
 1. Klicken Sie auf **Fertig stellen**.
 
-### Aufgabe 2.3: Fügen Sie die Copilot-Aktion „Buchungsanfrage erstellen“ zum Thema hinzu
+### Aufgabe 2.3: Hinzufügen der Agent-Aktion „Buchungsanfrage erstellen“ zum Thema
 
 1. Wählen Sie die Registerkarte **Themen**.
 
@@ -265,7 +265,7 @@ Microsoft Copilot Studio kann Daten in Microsoft Dataverse mithilfe von Power Au
 
 1. Wählen Sie **Veröffentlichen** und wählen Sie erneut **Veröffentlichen** aus.
 
-## Übung 3: Testen der Copilot-Aktionen
+## Übung 3: Testen der Agent-Aktionen
 
 ### Aufgabe 3.1: Stellen einer Buchungsanfrage
 
@@ -279,7 +279,7 @@ Microsoft Copilot Studio kann Daten in Microsoft Dataverse mithilfe von Power Au
 
 1. Wählen Sie das Symbol **Neue Konversation beginnen** oben auf dem Bedienfeld für Tests.
 
-1. Wenn die Meldung **Gesprächsbeginn** erscheint, wird Ihr Copilot ein Gespräch beginnen. Geben Sie als Antwort einen Triggerausdruck für das Thema ein, das Sie erstellt haben.
+1. Wenn die Meldung **Gesprächsbeginn** erscheint, wird Ihr Agent ein Gespräch beginnen. Geben Sie als Antwort einen Triggerausdruck für das Thema ein, das Sie erstellt haben.
 
     `I want to book a real estate showing`
 
