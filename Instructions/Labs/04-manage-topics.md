@@ -61,7 +61,7 @@ In dieser Übung erstellen Sie Themen in einem Agent und fügen Triggerausdrück
 
 ### Aufgabe 2.1: Hinzufügen eines Themas mithilfe eines Copiloten
 
-1. Wählen Sie **+ Ein Thema hinzufügen** und wählen Sie **Aus Beschreibung mit Copilot erstellen**. Es wird ein neues Fenster angezeigt.
+1. Wählen Sie **+ Thema hinzufügen** und wählen Sie **Aus Beschreibung erstellen mit Copilot**. Es wird ein neues Fenster angezeigt.
 
     ![Erstellen eines Themas mit Copilot.](../media/topic-create-from-description-2.png)
 

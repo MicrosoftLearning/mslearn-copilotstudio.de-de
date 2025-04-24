@@ -18,7 +18,7 @@ In dieser Übung importieren Sie eine Dataverse-Lösung in Ihre Umgebung, die di
 
 1. Navigieren Sie in einer neuen Browserregisterkarte zu `https://make.powerapps.com`.
 
-1. Wenn Sie zur Eingabe von Anmeldeinformationen aufgefordert werden, melden Sie sich bei Aufforderung mit Ihrer E-Mail-Adresse und Ihrem Kennwort an.
+1. Wenn Sie zur Eingabe von Anmeldeinformationen aufgefordert werden, melden Sie sich mit Ihrer E-Mail-Adresse und Ihrem Kennwort an.
 
 1. Wenn Sie zur Eingabe von Kontaktinformationen aufgefordert werden, geben Sie das Land/die Region an und wählen Sie **Erste Schritte**.
 
@@ -96,6 +96,6 @@ In dieser Übung importieren Sie eine Dataverse-Lösung in Ihre Umgebung, die di
     - **Schlafzimmer:**`4`
     - **Badezimmer:**`3`
 
-    ![Übersicht.](../media/add-record.png)
+    ![Übersicht.](../media/add-record2.png)
 
 1. Wählen Sie **Speichern und schließen** aus.

@@ -43,9 +43,7 @@ In dieser Übung greifen Sie auf das Microsoft Copilot Studio-Portal und die Umg
 
 ### Aufgabe 1.2: Erstellen eines Agents
 
-1. Wählen Sie im linken Navigationsbereich **Erstellen** aus und wählen Sie oben rechts die Kachel **Neuer Agent** und **Konfiguration überspringen** aus.
-
-    ![Erstellen im Copilot Studio-Portal.](../media/create-copilot-agent.png)
+1. Wählen Sie im linken Navigationsbereich **Erstellen** aus und wählen Sie oben rechts **+ Neuer Agent** und **Konfiguration überspringen** aus.
 
 1. Geben Sie in das Textfeld **Name** **`Real Estate Booking Service`** ein.
 
@@ -93,8 +91,6 @@ In dieser Übung greifen Sie auf das Microsoft Copilot Studio-Portal zu und füg
 
 1. Wählen Sie **+ Wissen hinzufügen**.
 
-    ![Wissensquellen im Copilot Studio-Portal.](../media/knowledge-sources.png)
-
 1. Wählen Sie **Öffentliche Websites** aus.
 
 1. Geben Sie in das Textfeld **Link zur öffentlichen Website** **`https://create.microsoft.com/en-us/`** ein.
@@ -106,19 +102,16 @@ In dieser Übung greifen Sie auf das Microsoft Copilot Studio-Portal zu und füg
 1. Wählen Sie **Hinzufügen**.
 
 1. Klicken Sie auf die Registerkarte **Übersicht**.
-
-    ![Benutzerdefinierter Copilot im Copilot Studio-Portal.](../media/copilot-studio-copilot2.png)
-
+    
 1. Wählen Sie die **drei Punkte** am oberen Rand des Bereichs **Agent testen**.
 
 1. Aktivieren Sie **Nachverfolgen der Themenverläufe**.
 
     ![Screenshot der Bedienfeldoptionen für Tests.](../media/test-pane-options.png)
 
-1. Wählen Sie oben im Bereich **Agenten testen** das Symbol **Eine neue Konversation beginnen** (Aktualisierungssymbol) neben dem **X**.
-
+1. Wählen Sie oben im Bereich **Agenten testen** das Symbol **Eine neue Konversation beginnen** (Aktualisierungssymbol) aus.
     ![Screenshot der Bedienfeldoptionen für Tests.](../media/copilot-test-pane-start-new-conversation.png)
 
-1. Geben Sie in das Textfeld **Nachricht eingeben** **`How do I boost real estate promotion?`** ein.
+1. Geben Sie in das Textfeld **Fragen stellen oder das Gesuchte beschreiben** **`How do I boost real estate promotion?`** ein.
 
     ![Screenshot der Ergebnisse des Bedienfelds „Testen“.](../media/test-pane-results.png)

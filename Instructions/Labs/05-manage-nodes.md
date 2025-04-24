@@ -33,7 +33,7 @@ Auf Variablen kann von anderen Themen zugegriffen werden.
 
 ### Aufgabe 1.1: Konfigurieren des Bereichs der Variablen
 
-1. Navigieren Sie zum Microsoft Studio-Portal `https://studio.microsoft.com` und stellen Sie sicher, dass Sie sich in der entsprechenden Umgebung befinden.
+1. Navigieren Sie zum Microsoft Studio-Portal `https://copilotstudio.microsoft.com` und stellen Sie sicher, dass Sie sich in der entsprechenden Umgebung befinden.
 
 1. Wählen Sie die Schaltfläche **Testen** oben rechts auf dem Bildschirm aus, um das Bedienfeld zu schließen, falls es geöffnet ist.
 
