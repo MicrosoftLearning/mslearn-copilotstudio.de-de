@@ -29,7 +29,7 @@ Beginnen wir damit, mit Copilot Studio einen neuen Agenten zu erstellen. Der Age
 
 1. Wählen Sie im Navigationsbereich links **Erstellen** aus, um eine Seite anzuzeigen, auf der Sie einen neuen Agents erstellen können, wie hier dargestellt:
 
-    ![Screenshot der Seite „Erstellen“ in Copilot Studio.](media/create-copilot.png)
+    ![Screenshot der Seite „Erstellen“ in Copilot Studio.](media/create-copilot-agent.png)
 
     Sie können einen vollständig neuen Agent erstellen oder mit einer Vorlage beginnen. In dieser Übung erstellen Sie einen brandneuen Agent.
 
@@ -112,15 +112,17 @@ Sie können *Themen* verwenden, um explizite Antworten auf *Trigger* zu geben, w
 1. Kehren Sie zur Seite **Themen** zurück und sehen Sie sich die **System**-Themen an. Beachten Sie, dass diese Themen für allgemeine Ereignisse in einer Unterhaltung enthalten. Beachten Sie insbesondere die folgenden Systemthemen:
     - **Unterhaltungsförderung**: Dieses Thema wird ausgelöst, wenn die Benutzenden eine Nachricht einreichen, für die der Agent kein entsprechendes Thema identifizieren kann (die *Absicht* der Benutzenden ist unbekannt). Anschließend wird versucht, mithilfe von generativer KI auf die Nachricht der Benutzenden zu reagieren.
     - **Fallback**: Dieses Thema ist ein „Ausweich“-Thema, das reagiert, wenn die Absicht unbekannt ist und keine angemessene KI-Antwort generiert werden kann. Das Fallbackthema enthält eine Logik, die es den Benutzenden ermöglicht, bis zu dreimal einen erneuten Versuch zu unternehmen, bevor das Gespräch ordnungsgemäß beendet wird, oft durch Weiterleitung an einen menschlichen Operator.
-1. Kehren Sie zur Seite **Themen** zurück und wählen Sie im Menü **+ Thema hinzufügen** die Option **Thema**\>**Aus Beschreibung mit Copilot erstellen**.
+1. Kehren Sie zur Seite **Themen** zurück und wählen Sie im Menü **+ Thema hinzufügen** die Option **Thema**\>**Aus Beschreibung mit Copilot erstellen** aus.
 
-1. Im Dialogfeld **Beschreibung mit Copilot erstellen** nennen Sie das neue Thema `Ask about expenses contact` und geben den folgenden Text ein, um Copilot mitzuteilen, was das Thema tun soll:
+1. Im Dialogfeld **Aus Beschreibung mit Copilot erstellen** nennen Sie das neue Thema `Ask about expenses contact` und geben den folgenden Text ein, um Copilot mitzuteilen, was das Thema tun soll:
 
     ```prompt
     When the user asks who to contact about expense claims, tell them to send an email to finance@contoso.com.
     ```
 
 1. Klicken Sie auf **Erstellen**.
+
+1. Wenn Sie dazu aufgefordert werden, wählen Sie **Zulassen** für **In die Zwischenablage kopierte Texte und Bilder anzeigen** aus.
 
 1. Nach einer kurzen Wartezeit sollte ein neues Thema mit dem Namen *Fragen zum Spesenkontakt* erstellt und im Erstellungsbereich geöffnet werden, wo es ungefähr so aussehen sollte:
 
@@ -180,9 +182,9 @@ Jetzt, da Sie einen funktionierenden Agent haben, können Sie ihn veröffentlich
 
 1. Blenden Sie den Bereich **Agenten testen** aus. Wählen Sie dann oben auf der Seite die Registerkarte **Kanäle** und prüfen Sie die Kanäle, auf denen Sie Ihren Agent einsetzen können. Die verfügbaren Kanäle hängen von den Authentifizierungseinstellungen für Ihren Agent ab.
 1. Wählen Sie oben auf der Seite **Einstellungen** aus.
-1. Wählen Sie im Bereich **Einstellungen** auf der Seite **Sicherheit** die Option **Authentifizierung**. Wählen Sie dann die Option **Keine Authentifizierung** und **speichern** die Änderungen an der Konfiguration (womit Sie bestätigen, dass Sie den Zugriff auf den Agent für alle Personen ermöglichen wollen).
+1. Wählen Sie im Bereich **Einstellungen** auf der Seite **Sicherheit** die Option **Authentifizierung**. Wählen Sie dann die Option **Keine Authentifizierung** und **speichern** Sie die Änderungen an der Konfiguration (womit Sie bestätigen, dass Sie den Zugriff auf den Agenten für alle Personen ermöglichen wollen).
 1. Schließen Sie den Bereich **Einstellungen**. Rufen Sie dann die Seite **Kanäle** auf.
-1. Klicken Sie oben auf der Seite auf **Veröffentlichen**. Wählen Sie dann auf der Seite **Veröffentlichen** die Option **Veröffentlichen**, und veröffentlichen Sie Ihren Agent. Die Veröffentlichung dauert in etwa eine Minute.
+1. Klicken Sie oben auf der Seite auf **Veröffentlichen**. Wählen Sie dann auf der Seite **Veröffentlichen** die Option **Veröffentlichen** aus. Die Veröffentlichung dauert in etwa eine Minute.
 1. Nachdem Ihr Agent veröffentlicht wurde, überprüfen Sie den **Veröffentlichungsstatus** auf der Seite **Kanäle**.
 
     ![Screenshot der Seite „Kanäle“ in Copilot Studio.](media/channels-page.png)
