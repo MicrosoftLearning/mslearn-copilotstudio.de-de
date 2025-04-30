@@ -112,7 +112,6 @@ Dieses Lab deckt Folgendes ab:
 ### Aufgabe 2.2. Hinzufügen von Wissen aus Dateien
 
 1. Laden Sie diese [**Microsoft Fallstudie**](https://download.microsoft.com/documents/customerevidence/Files/4000007499/SummitRealtyCaseStudy.docx) oder [**SummitRealtyCaseStudy.docx**](../../Allfiles/SummitRealtyCaseStudy.docx) von GitHub herunter.
-> ℹ️**HINWEIS:** Der Link zur Microsoft-Fallstudie ist folgender: `https://download.microsoft.com/documents/customerevidence/Files/4000007499/SummitRealtyCaseStudy.docx`
 
 1. Wählen Sie **+ Wissen hinzufügen**.
 
