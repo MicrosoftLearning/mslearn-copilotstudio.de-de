@@ -38,9 +38,6 @@ Dieses Lab deckt Folgendes ab:
 1. Wählen Sie den Agent aus, den Sie im vorherigen Lab erstellt haben.
 
 1. Wählen Sie **Veröffentlichen** und wählen Sie erneut **Veröffentlichen** aus.
-
-   ![Screenshot des Veröffentlichungsdialogs.](../media/copilot-publish.png)
-
    > **Hinweis:** Die Veröffentlichung kann ein paar Minuten in Anspruch nehmen.
 
 ## Übung 2: Kanäle
@@ -51,15 +48,9 @@ Wenn Ihr Agent veröffentlicht wurde, können Sie Ihren Agent für Benutzende in
 
 1. Wenn Ihr Agent in Microsoft Copilot Studio geöffnet ist, wählen Sie die Registerkarte **Kanäle**.
 
-    ![Screenshot der Registerkarte „Kanäle“.](../media/channels.png)
+1. Wählen Sie die Kachel **Teams und Microsoft 365 Copilot**.
 
-1. Wählen Sie die Kachel **Microsoft Teams**.
-
-    ![Screenshot des Teams-Dialogs.](../media/teams-enable.png)
-
-1. Wählen Sie **Teams aktivieren** aus.
-
-    ![Screenshot des Teams-Kanaldialogs.](../media/teams-channel.png)
+1. Wählen Sie **Kanal hinzufügen** aus.
 
 1. Wählen Sie **Verfügbarkeitsoptionen** aus.
 
@@ -73,19 +64,7 @@ Wenn Ihr Agent veröffentlicht wurde, können Sie Ihren Agent für Benutzende in
 
 1. Wählen Sie den Zurück-Pfeil oben links im Bereich aus.
 
-1. Wählen Sie **Teilen** aus.
-
-### Aufgabe 2.2: Microsoft Teams
-
-1. Wechseln Sie in einem neuen Tab zu Microsoft Teams `https://teams.microsoft.com`.
-
-1. Melden Sie sich bei Teams an, wenn Sie dazu aufgefordert werden.
-
-1. Wählen Sie in der linken Navigation **Teams** aus.
-
-1. Sie werden ein Team mit dem Namen **Contoso** mit dem Kanal **Allgemein** sehen.
-
-1. Öffnen Sie eine neue Registerkarte, und wechseln Sie zum URL-Link, der in die vorherige Aufgabe kopiert wurde.
+1. Wählen Sie **Mit einem Agent in Teams kommunizieren.**
 
 1. Wählen Sie **Abbrechen** im Dialogfeld für **Diese Seite versucht, Microsoft Teams zu öffnen**.
 
