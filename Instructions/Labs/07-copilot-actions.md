@@ -47,10 +47,6 @@ Microsoft Copilot Studio kann mithilfe von Power Automate-Cloudflows auf Daten i
 
 1. Wählen Sie den **Flow-Filter** aus, und wählen Sie dann **Flow mit Power Automate für Desktop ausführen** aus.
 
-1. Melden Sie sich bei Power Automate an, wenn Sie dazu aufgefordert werden.
-
-    ![Screenshot des Power Automate-Flows mit Trigger- und Antwortschritten.](../media/create-flow-step1.png)
-
 1. Wählen Sie **Flow aus Copilot ausführen** in der oberen linken Ecke des Bildschirms und geben Sie `Get Property` als Flownamen ein.
 
 1. Wählen Sie den Trigger-Schritt **Flow von Copilot ausführen** und wählen Sie **+ Eingabe hinzufügen**.
@@ -127,7 +123,7 @@ Microsoft Copilot Studio kann mithilfe von Power Automate-Cloudflows auf Daten i
 
 1. Wählen Sie **Speichern** in der Nähe der oberen rechten Ecke der Seite.
 
-1. Warten Sie, bis der Speichervorgang abgeschlossen ist, und schließen Sie dann die Power Automate-Registerkarte.
+1. Warten Sie, bis der Speichervorgang abgeschlossen ist, wählen Sie **Veröffentlichen** und schließen Sie die Registerkarte „Power Automate“, sobald die Veröffentlichung abgeschlossen ist.
 
 ### Aufgabe 1.2: Hinzufügen einer Agent-Aktion zum Abrufen einer Immobilie
 
@@ -179,11 +175,11 @@ Microsoft Copilot Studio kann Daten in Microsoft Dataverse mithilfe von Power Au
 
 1. Wählen Sie **+ Aktion hinzufügen** aus.
 
-1. Scrollen Sie nach unten und wählen Sie **Neuen Flow erstellen**.
+1. Scrollen Sie nach unten und wählen Sie **+ Neue Aktion** und dann **Neuer Power Automate-Flow** .
 
 1. Wählen Sie **Flow aus Copilot ausführen** in der oberen linken Ecke des Bildschirms und geben Sie `Create Booking Request` als Flownamen ein.
 
-1. Wählen Sie den Trigger-Schritt **Flow von Copilot ausführen** und wählen Sie **+ Eingabe hinzufügen**.
+1. Wählen Sie den Trigger-Schritt **Wenn ein Agent den Flow anruft** und wählen Sie **+ Einen Input hinzufügen**.
 
 1. Wählen Sie **Text** aus.
 
@@ -215,7 +211,7 @@ Microsoft Copilot Studio kann Daten in Microsoft Dataverse mithilfe von Power Au
 
 1. Wählen Sie unter **Erweiterte Parameter** die Option **Alle anzeigen** aus.
 
-1. Geben Sie `contoso_bookingrequests()` in das Feld **Eigenschaft (Immobilieneigenschaften)** ein, bewegen Sie den Cursor innerhalb der Klammern, wählen Sie das **Blitz**-Symbol und wählen Sie dann den Parameter **PropertyId**.
+1. Geben Sie `contoso_bookingrequests(PropertyId)` in das Feld **Eigenschaft (Immobilieneigenschaften)** ein, bewegen Sie den Cursor innerhalb der Klammern, wählen Sie das **Blitz**-Symbol und wählen Sie dann den Parameter **PropertyId**.
 
 1. Markieren Sie das Feld **Betrachter-E-Mail**, wählen Sie das **Blitz**-Symbol und wählen Sie dann den Parameter **ViewerEmail**.
 
@@ -231,7 +227,7 @@ Microsoft Copilot Studio kann Daten in Microsoft Dataverse mithilfe von Power Au
 
 1. Wählen Sie **Speichern** in der oberen rechten Ecke des Fensters.
 
-1. Warten Sie, bis der Speichervorgang abgeschlossen ist, und schließen Sie dann die Power Automate-Registerkarte.
+1. Warten Sie, bis die Speicherung abgeschlossen ist, wählen Sie **Veröffentlichen** und schließen Sie die Registerkarte „Power Automate“.
 
 ### Aufgabe 2.2: Hinzufügen einer Agent-Aktion zum Erstellen einer Buchungsanfrage
 
@@ -251,7 +247,7 @@ Microsoft Copilot Studio kann Daten in Microsoft Dataverse mithilfe von Power Au
 
 1. Wählen Sie das Thema **Immobilienbesichtigung buchen**.
 
-1. Wählen Sie das Symbol **+** unterhalb des Knotens **An welchem Datum und zu welcher Uhrzeit möchten Sie die Immobilie sehen?**, wählen Sie **Aktion aufrufen** und dann den Flow **Buchungsanfrage erstellen**.
+1. Wählen Sie das Symbol **+** unterhalb des Knotens **An welchem Datum und zu welcher Uhrzeit möchten Sie die Immobilie sehen?**, wählen Sie **Aktion hinzufügen** und dann den Flow **Buchungsanfrage erstellen**.
 
 1. Wählen Sie die Variable **PropertyId** für den Eingabeparameter **PropertyId**.
 
@@ -287,6 +283,8 @@ Microsoft Copilot Studio kann Daten in Microsoft Dataverse mithilfe von Power Au
 
     ```
     Name: <Your name>
+    ```
+    ```
     Email address: <Your email address>
     ```
 
@@ -305,6 +303,7 @@ Microsoft Copilot Studio kann Daten in Microsoft Dataverse mithilfe von Power Au
 1. Wählen Sie eine beliebige Bewertung aus.
 
 1. Wählen Sie **Nein** bei der Aufforderung **Kann ich sonst noch helfen?**.
+    >[!Note] Möglicherweise werden keine Antworten generiert.
 
 ### Aufgabe 3.2: Überprüfen der Buchungsanfrage
 
