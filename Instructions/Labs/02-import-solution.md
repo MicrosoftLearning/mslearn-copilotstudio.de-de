@@ -75,6 +75,7 @@ In dieser Übung importieren Sie eine Dataverse-Lösung in Ihre Umgebung, die di
 1. Geben Sie die folgenden Daten ein:
 
     - **Eigenschaftenname:**`1100 High Villas`
+    - **Besitzer:** Wählen Sie das Benutzerkonto aus.
     - **Preisvorstellung:**`250,000`
     - **Straße:**`Main Avenue`
     - **Stadt:**`Redmond`
@@ -90,6 +91,7 @@ In dieser Übung importieren Sie eine Dataverse-Lösung in Ihre Umgebung, die di
 1. Geben Sie die folgenden Daten ein:
 
     - **Eigenschaftenname:**`555 Oak Lane`
+    - **Besitzer:** Wählen Sie das Benutzerkonto aus.
     - **Preisvorstellung:**`300,000`
     - **Straße:**`Oak Lane`
     - **Stadt:**`Denver`
