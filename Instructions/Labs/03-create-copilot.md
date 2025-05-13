@@ -43,7 +43,7 @@ In dieser Übung greifen Sie auf das Microsoft Copilot Studio-Portal und die Umg
 
 ### Aufgabe 1.2: Erstellen eines Agents
 
-1. Wählen Sie im linken Navigationsbereich **Erstellen** aus und wählen Sie oben rechts **+ Neuer Agent** und **Konfiguration überspringen** aus.
+1. Wählen Sie im linken Navigationsbereich **Erstellen**, danach oben rechts **+ Neuer Agent** und anschließend **Zur Konfiguration wechseln** aus.
 
 1. Geben Sie in das Textfeld **Name** **`Real Estate Booking Service`** ein.
 
@@ -102,7 +102,7 @@ In dieser Übung greifen Sie auf das Microsoft Copilot Studio-Portal zu und füg
 1. Wählen Sie **Hinzufügen**.
 
 1. Klicken Sie auf die Registerkarte **Übersicht**.
-    
+
 1. Wählen Sie die **drei Punkte** am oberen Rand des Bereichs **Agent testen**.
 
 1. Aktivieren Sie **Nachverfolgen der Themenverläufe**.
@@ -110,6 +110,7 @@ In dieser Übung greifen Sie auf das Microsoft Copilot Studio-Portal zu und füg
     ![Screenshot der Bedienfeldoptionen für Tests.](../media/test-pane-options.png)
 
 1. Wählen Sie oben im Bereich **Agenten testen** das Symbol **Eine neue Konversation beginnen** (Aktualisierungssymbol) aus.
+
     ![Screenshot der Bedienfeldoptionen für Tests.](../media/copilot-test-pane-start-new-conversation.png)
 
 1. Geben Sie in das Textfeld **Fragen stellen oder das Gesuchte beschreiben** **`How do I boost real estate promotion?`** ein.

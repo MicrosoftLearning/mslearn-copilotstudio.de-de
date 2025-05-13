@@ -52,7 +52,7 @@ Beginnen wir damit, mit Copilot Studio einen neuen Agenten zu erstellen. Der Age
     - Einen freundlichen, professionellen Tonfall verwendet.
     - Keine öffentlich zugänglichen Websites verwendet, um an Informationen zu gelangen (Sie werden Ihrem Agent später eine Wissensquelle hinzufügen).
     - Vermeiden Sie jegliche Steuerberatung.
-    
+
     Wenn Sie fertig sind, wird neben der Unterhaltung, die zum Erstellen verwendet wird, eine Vorschau der Chatoberfläche für Ihren Agent angezeigt.
 
 1. Wenn Sie bereit sind, wählen Sie oben rechts **Erstellen**, um Ihren Agent zu erstellen. Nach kurzer Zeit wird es wie folgt angezeigt (Sie können das Fenster links lösen, um es deutlicher zu sehen):
@@ -92,7 +92,7 @@ Sie können *Themen* verwenden, um explizite Antworten auf *Trigger* zu geben, w
 1. Wählen Sie auf der Seite für Ihren Agent die Registerkarte **Themen**, um seine Themen zu sehen.
 
     ![Screenshot der Seite „Themen“ in Copilot Studio.](media/default-topics.png)
-    
+
     Der Agent verfügt über einige ***benutzerdefinierte*** Themen, die durch Eingaben der Benutzenden ausgelöst werden, und einige zusätzliche ***System***-Themen, die durch bestimmte Ereignisse ausgelöst werden, z. B. Fehler oder unerwartete Eingaben. Sie können die Themen nach Kategorie filtern oder den Filter **Alle** verwenden, um sie alle anzuzeigen.
 
 1. Wählen Sie das benutzerdefinierte Thema **Begrüßung** aus, um es im *Erstellungsbereich* anzuzeigen. Dabei handelt es sich um einen visuellen Designer zum Erstellen und Bearbeiten von Themen, der in etwa so aussieht:
@@ -193,7 +193,7 @@ Jetzt, da Sie einen funktionierenden Agent haben, können Sie ihn veröffentlich
 1. Geben Sie im Bereich **Demo-Website** die folgenden Einstellungen ein:
     - **Begrüßungsnachricht**: `Ask me about Expense claims`
     - **Gesprächseinstiege**:
-    
+
         ```prompt
         "Hello"
         "Who should I contact with expense enquiries?"
@@ -214,7 +214,6 @@ Nachdem Sie nun gesehen haben, wie Sie Copilot Studio zum Erstellen eines einfac
 
 - Erstellen Sie einen neuen Agent.
 - Verwenden Sie die Website `https://www.microsoft.com/en-us/microsoft-copilot/` als Wissensquelle.
-- Schließen Sie keine Unterrichtsthemen ein.
 - Veröffentlichen Sie den Agents, damit Benutzende ihn auf einer Demowebsite testen können.
 
 > **Tipp**: Wenn Sie Hilfe benötigen, lesen Sie die [Copilot Studio-Dokumentation](https://learn.microsoft.com/microsoft-copilot-studio/) unter `https://learn.microsoft.com/microsoft-copilot-studio/`.

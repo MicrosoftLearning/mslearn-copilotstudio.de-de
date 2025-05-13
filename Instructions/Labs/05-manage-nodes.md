@@ -143,12 +143,7 @@ Der Unterhaltungsflow in einem Thema kann manuell erstellt werden, indem Knoten 
 
     ![Screenshot der Konversations-Startnachricht und ‑antwort](../media/conversation-start-message.png)
 
-1. Geben Sie die folgenden Informationen ein:
-
-    ```
-    Name: <Your name>
-    Email address: <Your email address>
-    ```
+1. Geben Sie Ihren Namen und Ihre E-Mail-Adresse ein.
 
 1. Nachdem Sie die Informationen angegeben haben, zeigt eine adaptive Karte die eingegebenen Informationen an und fragt, ob die Details korrekt sind. Wählen Sie **Ja** aus.
 

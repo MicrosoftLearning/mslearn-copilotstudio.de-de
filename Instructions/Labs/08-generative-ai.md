@@ -103,19 +103,15 @@ Dieses Lab deckt Folgendes ab:
 
     ![Screenshot des Hinzufügens von Websitewissen.](../media/add-dataverse-knowedge-step1.png)
 
-1. Wählen Sie **Weiter** aus.
-
-1. Wählen Sie **Weiter** aus.
-
 1. Wählen Sie **Hinzufügen**.
 
 ### Aufgabe 2.2. Hinzufügen von Wissen aus Dateien
 
 1. Laden Sie diese [**Microsoft Fallstudie**](https://download.microsoft.com/documents/customerevidence/Files/4000007499/SummitRealtyCaseStudy.docx) oder [**SummitRealtyCaseStudy.docx**](../../Allfiles/SummitRealtyCaseStudy.docx) von GitHub herunter.
 
-1. Wählen Sie **+ Wissen hinzufügen**.
+> ℹ️**HINWEIS:** Der Link zur Microsoft-Fallstudie ist folgender: `https://download.microsoft.com/documents/customerevidence/Files/4000007499/SummitRealtyCaseStudy.docx`
 
-1. Wählen Sie **Dateien** aus.
+1. Wählen Sie **+ Wissen hinzufügen**.
 
 1. Wählen Sie unter **Dateien hochladen** die Fallstudie aus, die Sie heruntergeladen haben.
 
@@ -139,7 +135,7 @@ Dieses Lab deckt Folgendes ab:
 
 1. Wählen Sie das Symbol **+** unter dem Knoten **Bedingungen**, wählen Sie **Erweitert** und wählen Sie **Generative Antworten**.
 
-1. Wählen Sie **Activity.Text** für das Feld **Eingabe**.
+1. Wählen Sie die Registerkarte **System** und wählen Sie **Activity.Text** für das Feld **Eingabe**.
 
 1. Wählen Sie **Bearbeiten** unter **Datenquellen** aus.
 

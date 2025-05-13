@@ -43,13 +43,15 @@ Microsoft Copilot Studio kann mithilfe von Power Automate-Cloudflows auf Daten i
 
 1. Wählen Sie **+ Aktion hinzufügen** aus.
 
+1. Wählen Sie die Auslassungspunkte **(...)** und anschließend **Flow** aus.
+
     ![Screenshot von Schritt 1 zum Hinzufügen einer Aktion.](../media/add-action-step-1.png)
 
-1. Wählen Sie den **Flow-Filter** aus, und wählen Sie dann **Flow mit Power Automate für Desktop ausführen** aus.
+1. Wählen Sie **Neue Aktion** und dann **Neuer Power Automate-Flow**.
 
 1. Wählen Sie **Flow aus Copilot ausführen** in der oberen linken Ecke des Bildschirms und geben Sie `Get Property` als Flownamen ein.
 
-1. Wählen Sie den Trigger-Schritt **Flow von Copilot ausführen** und wählen Sie **+ Eingabe hinzufügen**.
+1. Wählen Sie den Trigger-Schritt **Wenn ein Agent den Flow anruft** und wählen Sie **+ Einen Input hinzufügen**.
 
 1. Wählen Sie **Text** aus.
 
@@ -57,7 +59,7 @@ Microsoft Copilot Studio kann mithilfe von Power Automate-Cloudflows auf Daten i
 
     ![Screenshot der Trigger-Eigenschaften des Flows.](../media/create-flow-step2.png)
 
-1. Wählen Sie das Symbol **+** zwischen den beiden Schritten im Flow und wählen Sie **Aktion hinzufügen**.
+1. Wählen Sie das Symbol **+** zwischen den beiden Schritten im Flow, um eine neue Aktion hinzuzufügen.
 
 1. Geben Sie `Dataverse` in das Feld **Suchen** ein und wählen Sie **Mehr anzeigen** für den **Microsoft Dataverse**-Connector.
 
@@ -121,7 +123,7 @@ Microsoft Copilot Studio kann mithilfe von Power Automate-Cloudflows auf Daten i
 
     ![Screenshot der Antwortaktionseinstellungen.](../media/create-flow-step6.png)
 
-1. Wählen Sie **Speichern** in der Nähe der oberen rechten Ecke der Seite.
+1. Wählen Sie **Entwurf speichern** in der Nähe der oberen rechten Ecke der Seite.
 
 1. Warten Sie, bis der Speichervorgang abgeschlossen ist, wählen Sie **Veröffentlichen** und schließen Sie die Registerkarte „Power Automate“, sobald die Veröffentlichung abgeschlossen ist.
 
@@ -129,15 +131,25 @@ Microsoft Copilot Studio kann mithilfe von Power Automate-Cloudflows auf Daten i
 
 1. Wählen Sie **Aktualisieren** im Copilot Studio-Dialogfeld aus, um den neuen Flow zu sehen.
 
-1. Wählen Sie den Flow **Eigenschaft abrufen**.
-
     ![Screenshot von Schritt 1 zum Hinzufügen einer Flowaktion.](../media/add-action-flow-step-1.png)
 
-1. Wählen Sie **Weiter** aus.
+1. Wählen Sie den Flow **Eigenschaft abrufen**.
 
-1. Wählen Sie **Weiter** aus.
+1. Erweitern Sie **Eingaben und Ausgaben**.
 
-1. Klicken Sie auf **Fertig stellen**.
+    ![Screenshot des Hinzufügens von Ausgaben zu einer Flowaktion.](../media/add-action-flow-step-1a.png)
+
+1. Wählen Sie **+ Hinzufügen** für **Ausgabe**.
+
+1. Wählen Sie **PropertyId** aus.
+
+1. Wählen Sie **+ Hinzufügen** für **Ausgabe**.
+
+1. Wählen Sie **PropertyName** aus.
+
+    ![Screenshot der zu einer Flowaktion hinzugefügten Ausgaben.](../media/add-action-flow-step-1b.png)
+
+1. Wählen Sie **Aktion hinzufügen** aus.
 
 ### Aufgabe 1.3: Hinzufügen der Agent-Aktion „Eigenschaft abrufen“ zum Thema
 
@@ -153,7 +165,7 @@ Microsoft Copilot Studio kann mithilfe von Power Automate-Cloudflows auf Daten i
 
     ![Screenshot von Schritt 3 zum Hinzufügen einer Flowaktion.](../media/add-action-flow-step-3.png)
 
-1. Markieren Sie die **drei Punkte** im Knoten **Welche Immobilie möchten Sie sehen?** und wählen Sie **Löschen**.
+1. Markieren Sie die **drei Punkte** im Frageknoten **Welche Eigenschaft möchten Sie sehen?** und wählen Sie **Löschen**.
 
 1. Wählen Sie das Symbol **+** unter dem Knoten **Aktion** und wählen Sie **Nachricht senden**.
 
@@ -175,7 +187,7 @@ Microsoft Copilot Studio kann Daten in Microsoft Dataverse mithilfe von Power Au
 
 1. Wählen Sie **+ Aktion hinzufügen** aus.
 
-1. Scrollen Sie nach unten und wählen Sie **+ Neue Aktion** und dann **Neuer Power Automate-Flow** .
+1. Wählen Sie **+ Neue Aktion** und dann **Neuer Power Automate-Flow**.
 
 1. Wählen Sie **Flow aus Copilot ausführen** in der oberen linken Ecke des Bildschirms und geben Sie `Create Booking Request` als Flownamen ein.
 
@@ -199,7 +211,7 @@ Microsoft Copilot Studio kann Daten in Microsoft Dataverse mithilfe von Power Au
 
     ![Screenshot der Aktion zum Konfigurieren von Flowparametern.](../media/create-flow2-step1.png)
 
-1. Wählen Sie das Symbol **+** zwischen den beiden Schritten im Flow und wählen Sie **Aktion hinzufügen**.
+1. Wählen Sie das Symbol **+** zwischen den beiden Schritten im Flow, um eine neue Aktion hinzuzufügen.
 
 1. Geben Sie `Dataverse` in das Feld **Suchen** ein und wählen Sie **Mehr anzeigen** für den **Microsoft Dataverse**-Connector.
 
@@ -211,7 +223,7 @@ Microsoft Copilot Studio kann Daten in Microsoft Dataverse mithilfe von Power Au
 
 1. Wählen Sie unter **Erweiterte Parameter** die Option **Alle anzeigen** aus.
 
-1. Geben Sie `contoso_bookingrequests(PropertyId)` in das Feld **Eigenschaft (Immobilieneigenschaften)** ein, bewegen Sie den Cursor innerhalb der Klammern, wählen Sie das **Blitz**-Symbol und wählen Sie dann den Parameter **PropertyId**.
+1. Geben Sie `contoso_bookingrequests()` in das Feld **Eigenschaft (Immobilieneigenschaften)** ein, bewegen Sie den Cursor innerhalb der Klammern, wählen Sie das **Blitz**-Symbol und wählen Sie dann den Parameter **PropertyId**.
 
 1. Markieren Sie das Feld **Betrachter-E-Mail**, wählen Sie das **Blitz**-Symbol und wählen Sie dann den Parameter **ViewerEmail**.
 
@@ -225,7 +237,7 @@ Microsoft Copilot Studio kann Daten in Microsoft Dataverse mithilfe von Power Au
 
 1. Stellen Sie sicher, dass **Asynchrone Antwort** auf **Aus** gesetzt ist.
 
-1. Wählen Sie **Speichern** in der oberen rechten Ecke des Fensters.
+1. Wählen Sie **Entwurf speichern** in der oberen rechten Ecke des Fensters.
 
 1. Warten Sie, bis die Speicherung abgeschlossen ist, wählen Sie **Veröffentlichen** und schließen Sie die Registerkarte „Power Automate“.
 
@@ -235,11 +247,7 @@ Microsoft Copilot Studio kann Daten in Microsoft Dataverse mithilfe von Power Au
 
 1. Wählen Sie den Flow **Buchungsanfrage erstellen**.
 
-1. Wählen Sie **Weiter** aus.
-
-1. Wählen Sie **Weiter** aus.
-
-1. Klicken Sie auf **Fertig stellen**.
+1. Wählen Sie **Aktion hinzufügen** aus.
 
 ### Aufgabe 2.3: Hinzufügen der Agent-Aktion „Buchungsanfrage erstellen“ zum Thema
 
@@ -311,7 +319,7 @@ Microsoft Copilot Studio kann Daten in Microsoft Dataverse mithilfe von Power Au
 
 1. Stellen Sie sicher, dass Sie sich in der richtigen Umgebung befinden.
 
-1. Wählen Sie **Spielen** auf der modellgesteuerten App **Immobilienverwaltung**.
+1. Wählen Sie **Wiedergeben** auf der modellgesteuerten App **Immobilienverwaltung**.
 
 1. Wählen Sie in der linken Navigation **Buchungsanfragen**.
 
