@@ -87,7 +87,7 @@ In dieser Übung erstellen Sie Themen in einem Agent und fügen Triggerausdrück
 
 1. Geben Sie im Bereich **Mit Copilot bearbeiten** im Feld **Was möchten Sie tun?** den folgenden Text ein:
 
-    `Update the message in this Question node to say thank you to the Name variable from the previous node and then proceed to ask the email address question.`
+    `Replace "What is your email address?" to say thank you to the Name variable from the previous node and then proceed to ask the email address question.`
 
 1. Wählen Sie **Aktualisieren**.
 
