@@ -8,9 +8,11 @@ lab:
 
 ## Szenario
 
-Dieses Lab deckt Folgendes ab:
+In dieser Übung führen Sie die folgenden Schritte aus:
 
-- Erstellen von Agentaktionen
+- Bereitstellen eines Agents in einem Microsoft Teams-Kanal
+
+Diese Übung dauert etwa **10** Minuten.
 
 ## Lernziele
 
@@ -58,10 +60,6 @@ Wenn Ihr Agent veröffentlicht wurde, können Sie Ihren Agent für Benutzende in
 
 1. Wählen Sie **Link kopieren** aus.
 
-1. Wählen Sie **Meinen Teamkollegen und freigegebenen Benutzern zeigen** aus.
-
-1. Wählen Sie das entsprechende Benutzerkonto aus.
-
 1. Wählen Sie den Zurück-Pfeil oben links im Bereich aus.
 
 1. Wählen Sie **Mit einem Agent in Teams kommunizieren.**
@@ -73,6 +71,10 @@ Wenn Ihr Agent veröffentlicht wurde, können Sie Ihren Agent für Benutzende in
 1. Wählen Sie **Hinzufügen**.
 
     ![Screenshot des Dialogs zum Hinzufügen der App zu Teams.](../media/teams-add-app.png)
+
+1. Wählen Sie in der linken Leiste in Microsoft Teams die **Auslassungspunkte (...)** aus, um weitere Apps anzuzeigen und nach **Immobilien** zu suchen.
+
+1. Wählen Sie den **Immobilienbuchungsdienst**.
 
 1. Testen des Agents.
 

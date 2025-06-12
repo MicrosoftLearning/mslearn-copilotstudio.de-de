@@ -1,16 +1,18 @@
 ---
 lab:
   title: Verwenden generativer KI in Microsoft Copilot Studio
-  module: Enhance Microsoft Copilot Studio copilots
+  module: Enhance Microsoft Copilot Studio agents
 ---
 
 # Verwenden generativer KI in Microsoft Copilot Studio
 
 ## Szenario
 
-Dieses Lab deckt Folgendes ab:
+In dieser Übung führen Sie die folgenden Schritte aus:
 
-- Erstellen von Agentaktionen
+- Verwenden von Wissen und generativer KI in Ihrem Agent
+
+Diese Übung dauert etwa **30** Minuten.
 
 ## Lernziele
 
@@ -113,7 +115,7 @@ Dieses Lab deckt Folgendes ab:
 
 1. Wählen Sie **+ Wissen hinzufügen**.
 
-1. Wählen Sie unter **Dateien hochladen** die Fallstudie aus, die Sie heruntergeladen haben.
+1. Wählen Sie unter **Datei hochladen** die Fallstudie aus, die Sie heruntergeladen haben.
 
     ![Screenshot des Hinzufügens von Dateikenntnissen.](../media/add-file-knowledge.png)
 
@@ -163,7 +165,7 @@ Dieses Lab deckt Folgendes ab:
 
     ![Screenshot der Konversationskarte des Testbedienfeldes.](../media/test-pane-conversation-map.png)
 
-1. Wählen Sie **An**.
+1. Wählen Sie **Ein** aus.
 
 1. Wählen Sie das Symbol **Neue Konversation beginnen** oben auf dem Bedienfeld für Tests.
 

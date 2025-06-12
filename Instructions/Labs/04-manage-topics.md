@@ -8,11 +8,13 @@ lab:
 
 ## Szenario
 
-Dieses Lab deckt Folgendes ab:
+In dieser Übung führen Sie die folgenden Schritte aus:
 
 - Verwaltung bestehender Themen
 - Erstellung und Bearbeitung von Themen in natürlicher Sprache
 - Manuelle Erstellung eines Themas mithilfe von Triggerausdrücken
+
+Diese Übung dauert etwa **30** Minuten.
 
 ## Lernziele
 
@@ -20,7 +22,6 @@ Dieses Lab deckt Folgendes ab:
 
 ## Weiterführende Schritte des Lab
 
-- Löschen der Beispielthemen
 - Deaktivieren von Themen
 - Erstellen und bearbeiten von Themen mit natürlicher Sprache
 - Erstellen eines neuen Themas und Hinzufügen von Triggerausdrücken
@@ -87,7 +88,7 @@ In dieser Übung erstellen Sie Themen in einem Agent und fügen Triggerausdrück
 
 1. Geben Sie im Bereich **Mit Copilot bearbeiten** im Feld **Was möchten Sie tun?** den folgenden Text ein:
 
-    `Replace "What is your email address?" to say thank you to the Name variable from the previous node and then proceed to ask the email address question.`
+    `Change "What is your email address?" to say thank you to the Name variable from the previous node and then proceed to ask the email address question.`
 
 1. Wählen Sie **Aktualisieren**.
 
@@ -95,7 +96,7 @@ In dieser Übung erstellen Sie Themen in einem Agent und fügen Triggerausdrück
 
     ![Screenshot der Nachricht, die um die-Variable Name erweitert wurde](../media/message-updated-name-variable.png)
 
-    > **Hinweis**: Die Nachricht sollte aktualisiert werden, um die *Namenvariable* aus dem vorherigen Knoten einzuschließen, und sollte ähnlich wie der obige Screenshot aussehen.
+    > **Hinweis**: Die Nachricht sollte aktualisiert werden, um die *Namenvariable* aus dem vorherigen Knoten einzuschließen, und sollte ähnlich wie der obige Screenshot aussehen. Wenn „Mit Copilot bearbeiten“ den Fragenknoten nicht korrekt aktualisiert hat, wählen Sie „Rückgängig“ und versuchen Sie es mit einem anderen Prompt erneut.
 
 1. Wählen Sie **Speichern**.
 

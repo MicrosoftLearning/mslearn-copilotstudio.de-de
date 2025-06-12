@@ -1,16 +1,18 @@
 ---
 lab:
   title: Erstellen von Agentaktionen
-  module: Enhance Microsoft Copilot Studio copilots
+  module: Enhance Microsoft Copilot Studio agents
 ---
 
-# Erstellen von Copilotaktionen
+# Erstellen von Agentaktionen
 
 ## Szenario
 
-Dieses Lab deckt Folgendes ab:
+In dieser Übung führen Sie die folgenden Schritte aus:
 
-- Erstellen von Agentaktionen
+- Erstellen von Agentaktionen mithilfe eines Power Automate-Cloud-Flows
+
+Diese Übung dauert etwa **30** Minuten.
 
 ## Lernziele
 
@@ -82,6 +84,8 @@ Microsoft Copilot Studio kann mithilfe von Power Automate-Cloudflows auf Daten i
 1. Wenn das Feld **Filterreihen** noch immer ausgewählt ist, wählen Sie das **Blitz**-Symbol rechts daneben und dann den Parameter **Bedrooms**.
 
     ![Screenshot der Konfiguration der Aktion „Zeilen auflisten“.](../media/create-flow-step4.png)
+
+    > **Wichtig:** Stellen Sie sicher, dass zwischen „eq” und „Bedrooms” ein Leerzeichen steht.
 
 1. Markieren Sie im Hauptbedienfeld von Power Automate die Aktion **Auf Copilot reagieren** und wählen Sie **+ Ausgang hinzufügen**.
 
@@ -219,7 +223,7 @@ Microsoft Copilot Studio kann Daten in Microsoft Dataverse mithilfe von Power Au
 
 1. Wählen Sie **Buchungsanfragen** als Tabellenname aus.
 
-1. Geben Sie `Copilot booking` in das Feld **Buchungsname** ein.
+1. Geben Sie `Agent booking` in das Feld **Buchungsname** ein.
 
 1. Wählen Sie unter **Erweiterte Parameter** die Option **Alle anzeigen** aus.
 
@@ -311,7 +315,6 @@ Microsoft Copilot Studio kann Daten in Microsoft Dataverse mithilfe von Power Au
 1. Wählen Sie eine beliebige Bewertung aus.
 
 1. Wählen Sie **Nein** bei der Aufforderung **Kann ich sonst noch helfen?**.
-    >[!Note] Möglicherweise werden keine Antworten generiert.
 
 ### Aufgabe 3.2: Überprüfen der Buchungsanfrage
 
