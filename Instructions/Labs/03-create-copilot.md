@@ -1,18 +1,20 @@
 ---
 lab:
   title: Erstellen eines ersten Agents
-  module: Build an initial agent with Microsoft Copilot Studio
+  module: Manage topics in Microsoft Copilot Studio
 ---
 
 # Erstellen eines ersten Agents
 
 ## Szenario
 
-Dieses Lab deckt Folgendes ab:
+In dieser Übung führen Sie die folgenden Schritte aus:
 
 - Erstellen und Benennen eines Agents
 - Hinzufügen einer Beschreibung der Aufgaben des Agents
 - Konfigurieren von generativen KI-Antworten
+
+Diese Übung dauert etwa **15** Minuten.
 
 ## Lernziele
 
@@ -61,7 +63,7 @@ In dieser Übung greifen Sie auf das Microsoft Copilot Studio-Portal und die Umg
 
 1. Wählen Sie **Buchungen** unter **Lösung** aus.
 
-1. Geben Sie `labcopilot` als **Schema-Namen** ein.
+1. Geben Sie `labagent` als **Schema-Namen** ein.
 
     ![Erweiterte Einstellungen im Copilot Studio-Portal.](../media/copilot-studio-advanced-settings.png)
 
@@ -77,13 +79,19 @@ Lassen Sie dieses Fenster geöffnet.
 
 In dieser Übung greifen Sie auf das Microsoft Copilot Studio-Portal zu und fügen Wissen hinzu, mit dem der Agent Fragen beantworten wird, indem Sie generative KI verwenden.
 
-### Aufgabe 2.1: Aktivieren von generativen KI-Antworten
+### Aufgabe 2.1 – Deaktivieren der generativen Orchestrierung
+
+1. Stellen Sie auf der Registerkarte **Übersicht** sicher, dass Sie **Generative KI verwenden, um zu ermitteln, wie Sie am besten auf Benutzende und Ereignisse reagieren können.** im Abschnitt **Details** auf **Deaktiviert** festgelegt ist.
+
+    ![Generative Orchestrierung deaktiviert](../media/settings-generative-ai-1.png)
+
+### Aufgabe 2.2: Aktivieren von generativen KI-Antworten
 
 1. Stellen Sie auf der Registerkarte **Übersicht** sicher, dass **KI sein eigenes allgemeines Wissen zu nutzen erlauben** im Abschnitt **Wissen** auf **Aktiviert** festgelegt ist.
 
     ![Aktiviertes Wissen im Copilot Studio Portal.](../media/knowledge-enabled.png)
 
-### Aufgabe 2.2: Hinzufügen einer Wissensquelle
+### Aufgabe 2.3: Hinzufügen einer Wissensquelle
 
 1. Wählen Sie die Registerkarte **Wissen**.
 

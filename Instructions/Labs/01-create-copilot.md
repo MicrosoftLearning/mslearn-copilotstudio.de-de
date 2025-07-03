@@ -1,13 +1,14 @@
 ---
 lab:
   title: Erstellen eines Agenten mit Copilot Studio
+  module: Build an initial agent with Microsoft Copilot Studio
 ---
 
 # Erstellen eines Agenten mit Copilot Studio
 
-In dieser Übung erstellen Sie mithilfe von Copilot Studio einen einfachen Agent, der Fragen von Mitarbeitenden zu Spesenrichtlinien in einem fiktiven Unternehmen beantworten kann.
+In dieser Übung erstellen Sie mithilfe von Copilot Studio einen einfachen Agent, der Fragen von Mitarbeitenden zu Spesenrichtlinien in einem fiktiven Unternehmen beantwortet.
 
-Diese Übung dauert etwa **45** Minuten.
+Diese Übung dauert etwa **30** Minuten.
 
 > **Hinweis:** Für diese Übung wird davon ausgegangen, dass Sie bereits über eine Lizenz für Copilot Studio verfügen oder sich für eine [kostenlose Testversion](https://go.microsoft.com/fwlink/p/?linkid=2252605) angemeldet haben.
 
@@ -35,7 +36,7 @@ Beginnen wir damit, mit Copilot Studio einen neuen Agenten zu erstellen. Der Age
 
 1. Wählen Sie die Option zum Erstellen eines **neuen Agents** aus. Copilot Studio antwortet, indem sie eine Chatschnittstelle bereitstellt, in der Sie die Funktionalität des Agents beschreiben können, den Sie erstellen möchten.
 
-    >**Tipp**: Sie können die Option **Überspringen, um zu konfigurieren** verwenden, um die Erstellung von Agents im Chat zu überspringen. In dieser Übung verwenden wir die Chatschnittstelle.
+    > **Tipp**: Sie können die Option **Überspringen, um zu konfigurieren** verwenden, um die Erstellung von Agents im Chat zu überspringen. In dieser Übung verwenden wir die Chatschnittstelle.
 
 1. Geben Sie den folgenden Prompt ein:
 
@@ -114,7 +115,7 @@ Sie können *Themen* verwenden, um explizite Antworten auf *Trigger* zu geben, w
     - **Fallback**: Dieses Thema ist ein „Ausweich“-Thema, das reagiert, wenn die Absicht unbekannt ist und keine angemessene KI-Antwort generiert werden kann. Das Fallbackthema enthält eine Logik, die es den Benutzenden ermöglicht, bis zu dreimal einen erneuten Versuch zu unternehmen, bevor das Gespräch ordnungsgemäß beendet wird, oft durch Weiterleitung an einen menschlichen Operator.
 1. Kehren Sie zur Seite **Themen** zurück und wählen Sie im Menü **+ Thema hinzufügen** die Option **Thema**\>**Aus Beschreibung mit Copilot erstellen** aus.
 
-1. Im Dialogfeld **Aus Beschreibung mit Copilot erstellen** nennen Sie das neue Thema `Ask about expenses contact` und geben den folgenden Text ein, um Copilot mitzuteilen, was das Thema tun soll:
+1. Im Dialogfeld **Aus Beschreibung mit Copilot erstellen** nennen Sie das neue Thema `Ask about expenses contact` und geben den folgenden Text ein, um Copilot Studio mitzuteilen, was das Thema tun soll:
 
     ```prompt
     When the user asks who to contact about expense claims, tell them to send an email to finance@contoso.com.
@@ -129,6 +130,8 @@ Sie können *Themen* verwenden, um explizite Antworten auf *Trigger* zu geben, w
     ![Screenshot des vom Copilot generierten Themas.](media/copilot-studio-topic.png)
 
     Das neue Thema sollte durch Sätze getriggert werden, die nach einem Kontakt für Ausgaben fragen, und mit einer Nachricht antworten, die die Benutzenden auffordern, eine E-Mail an die entsprechende Adresse zu senden.
+
+    > **Wichtig**: Wenn sich die Knoten im Thema von der obigen Abbildung unterscheiden, löschen Sie das Thema, und erstellen Sie das Thema erneut.
 
 1. Verwenden Sie die Schaltfläche **Speichern** (oben rechts), um das neue Thema in Ihrem Agent zu speichern.
 
@@ -154,7 +157,7 @@ Sie können Themen für alle Eingaben hinzufügen, die von Benutzenden erwartet 
 
     ![Screenshot der verfügbaren Wissensquellen in Copilot Studio.](media/knowledge-sources.png)
 
-1. Laden Sie im Abschnitt **Dateien hochladen** das zuvor heruntergeladene Dokument mit den Spesenrichtlinien hoch und fügen Sie es dem Wissen Ihres Agents hinzu.
+1. Laden Sie im Abschnitt **Datei hochladen** das zuvor heruntergeladene Dokument mit den Spesenrichtlinien hoch und fügen Sie es dem Wissen Ihres Agents hinzu.
 
     > **Hinweis:** Nach dem Hochladen der Datei müssen Sie warten, bis sie indiziert ist. Dies kann 10 Minuten (oder länger) dauern. Jetzt wäre ein guter Zeitpunkt für eine Kaffeepause, während Sie das [Ausgabenrichtlinien-Dokument](https://github.com/MicrosoftLearning/mslearn-copilotstudio/raw/main/expenses/Expenses_Policy.docx) unter `https://github.com/MicrosoftLearning/mslearn-copilotstudio/raw/main/expenses/Expenses_Policy.docx` in einem anderen Browser-Tab durchsehen!
 
@@ -182,7 +185,7 @@ Jetzt, da Sie einen funktionierenden Agent haben, können Sie ihn veröffentlich
 
 1. Blenden Sie den Bereich **Agenten testen** aus. Wählen Sie dann oben auf der Seite die Registerkarte **Kanäle** und prüfen Sie die Kanäle, auf denen Sie Ihren Agent einsetzen können. Die verfügbaren Kanäle hängen von den Authentifizierungseinstellungen für Ihren Agent ab.
 1. Wählen Sie oben auf der Seite **Einstellungen** aus.
-1. Wählen Sie im Bereich **Einstellungen** auf der Seite **Sicherheit** die Option **Authentifizierung**. Wählen Sie dann die Option **Keine Authentifizierung** und **speichern** Sie die Änderungen an der Konfiguration (womit Sie bestätigen, dass Sie den Zugriff auf den Agenten für alle Personen ermöglichen wollen).
+1. Wählen Sie im Bereich **Einstellungen** auf der Seite **Sicherheit** die Option **Authentifizierung**. Wählen Sie anschließend die Option **Keine Authentifizierung** und **speichern** Sie die Änderungen an der Konfiguration und **speichern** erneut (womit Sie bestätigen, dass Sie den Zugriff auf den Agent für alle Personen ermöglichen wollen).
 1. Schließen Sie den Bereich **Einstellungen**. Rufen Sie dann die Seite **Kanäle** auf.
 1. Klicken Sie oben auf der Seite auf **Veröffentlichen**. Wählen Sie dann auf der Seite **Veröffentlichen** die Option **Veröffentlichen** aus. Die Veröffentlichung dauert in etwa eine Minute.
 1. Nachdem Ihr Agent veröffentlicht wurde, überprüfen Sie den **Veröffentlichungsstatus** auf der Seite **Kanäle**.

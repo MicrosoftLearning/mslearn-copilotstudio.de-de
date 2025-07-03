@@ -8,9 +8,11 @@ lab:
 
 ## Szenario
 
-Dieses Lab deckt Folgendes ab:
+In dieser Übung führen Sie die folgenden Schritte aus:
 
 - Erstellen und Verwenden von Entitäten
+
+Diese Übung dauert etwa **15** Minuten.
 
 ## Lernziele
 
@@ -68,6 +70,8 @@ Microsoft Copilot Studio verwendet Entitäten, um die Benutzerabsicht zu versteh
 1. Wählen Sie **+ Synonyme** für **Condominium**, geben Sie **`Townhouse`** ein und wählen Sie das Symbol **+** und wählen Sie anschließend **Fertig**.
 
 1. Wählen Sie **+ Synonyme** für **Haus**, geben Sie **`Single-family home`** ein und wählen Sie das Symbol **+** und wählen Sie anschließend **Fertig**.
+
+1. Aktivieren Sie die **Intelligente Übereinstimmung**.
 
     ![Screenshot einer neuen Entität.](../media/add-list-entity.png)
 

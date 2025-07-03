@@ -8,9 +8,12 @@ lab:
 
 ## Szenario
 
-Dieses Lab deckt Folgendes ab:
+In dieser Übung führen Sie die folgenden Schritte aus:
 
 - Erstellen des Unterhaltungsflows
+- Verwalten von Variablen
+
+Diese Übung dauert etwa **30** Minuten.
 
 ## Lernziele
 
@@ -20,6 +23,7 @@ Dieses Lab deckt Folgendes ab:
 
 - Konfigurieren des Variablenbereichs
 - Erstellen und Bearbeiten von Knoten
+- Bereitstellen und Testen des Agent
   
 ## Voraussetzungen
 
