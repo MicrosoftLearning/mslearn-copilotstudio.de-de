@@ -4,24 +4,24 @@ lab:
   module: Enhance Microsoft Copilot Studio agents
 ---
 
-# Erstellen von Agentaktionen
+# Erstellen von Agent-Flows
 
 ## Szenario
 
 In dieser Übung führen Sie die folgenden Schritte aus:
 
-- Erstellen von Agentaktionen mithilfe eines Power Automate-Cloud-Flows
+- Erstellen eines Agent-Flow
 
 Diese Übung dauert etwa **30** Minuten.
 
 ## Lernziele
 
-- Hinzufügem von Power Automate, um auf Daten in Microsoft Dataverse zuzugreifen
+- So erstellen Sie ein Tool zum Ausführen eines Agent-Flows in Copilot Studio
 
 ## Weiterführende Schritte des Lab
 
-- Erstellen eines Power Automate-Cloudflows zum Abrufen von Dataverse-Daten mit einer Agent-Aktion
-- Erstellen eines Power Automate-Cloudflows zum Erstellen von Dataverse-Daten mit einer Agent-Aktion
+- Erstellen eines Agent-Flows zum Abrufen von Dataverse-Daten mit einer Agent-Aktion
+- Erstellen eines Agent-Flows zum Erstellen von Dataverse-Daten mit einer Agent-Aktion
   
 ## Voraussetzungen
 
@@ -31,9 +31,9 @@ Diese Übung dauert etwa **30** Minuten.
 
 ## Übung 1: Erstellen einer Agent-Aktion zum Abrufen von Daten aus Dataverse
 
-Microsoft Copilot Studio kann mithilfe von Power Automate-Cloudflows auf Daten in Microsoft Dataverse zugreifen.
+Microsoft Copilot Studio kann mithilfe von Agent-Flows auf Daten in Microsoft Dataverse zugreifen.
 
-### Aufgabe 1.1: Erstellen eines Power Automate-Flows zum Abrufen einer Immobilie
+### Aufgabe 1.1: Erstellen eines Agent-Flow zum Abrufen einer Eigenschaft
 
 1. Navigieren Sie zum Microsoft Copilot Studio-Portal `https://copilotstudio.microsoft.com` und stellen Sie sicher, dass Sie sich in der entsprechenden Umgebung befinden.
 
@@ -41,17 +41,13 @@ Microsoft Copilot Studio kann mithilfe von Power Automate-Cloudflows auf Daten i
 
 1. Wählen Sie den **Immobilienbuchungsdienst** aus, den Sie im vorherigen Lab erstellt haben.
 
-1. Klicken Sie auf die Registerkarte **Actions** (Aktionen).
+1. Wählen Sie die Registerkarte **Tools** aus.
 
-1. Wählen Sie **+ Aktion hinzufügen** aus.
+1. Wählen Sie **+ Tool hinzufügen** aus.
 
-1. Wählen Sie die Auslassungspunkte **(...)** und anschließend **Flow** aus.
+1. Wählen Sie **+ Neues Tool** aus.
 
-    ![Screenshot von Schritt 1 zum Hinzufügen einer Aktion.](../media/add-action-step-1.png)
-
-1. Wählen Sie **Neue Aktion** und dann **Neuer Power Automate-Flow**.
-
-1. Wählen Sie **Flow aus Copilot ausführen** in der oberen linken Ecke des Bildschirms und geben Sie `Get Property` als Flownamen ein.
+1. Wählen Sie **Agent-Flow** aus.
 
 1. Wählen Sie den Trigger-Schritt **Wenn ein Agent den Flow anruft** und wählen Sie **+ Einen Input hinzufügen**.
 
@@ -69,7 +65,7 @@ Microsoft Copilot Studio kann mithilfe von Power Automate-Cloudflows auf Daten i
 
 1. Wählen Sie die Aktion **Zeilen auflisten**.
 
-1. Wenn Sie zur Authentifizierung aufgefordert werden, wählen Sie **Authentifizierung** und wählen Sie **Anmelden**.
+1. Wenn Sie zur Authentifizierung aufgefordert werden, geben Sie `Lab connection` für **Verbindungsname** ein, wählen Sie **OAuth** für **Authentifizierungstyp aus, und wählen Sie **Anmelden** aus.
 
     > **Hinweis:** Wenn Sie die Fehlermeldung '**Fehler beim Erstellen der OAuth-Verbindung** sehen, müssen Sie möglicherweise Popups in Ihrem Browser zulassen.
 
@@ -87,7 +83,7 @@ Microsoft Copilot Studio kann mithilfe von Power Automate-Cloudflows auf Daten i
 
     > **Wichtig:** Stellen Sie sicher, dass zwischen „eq” und „Bedrooms” ein Leerzeichen steht.
 
-1. Markieren Sie im Hauptbedienfeld von Power Automate die Aktion **Auf Copilot reagieren** und wählen Sie **+ Ausgang hinzufügen**.
+1. Wählen Sie die Aktion **Auf Copilot reagieren** im Dokumenterstellungsbereich aus, und wählen Sie **+ Ausgabe hinzufügen** aus.
 
 1. Wählen Sie **Text** aus.
 
@@ -100,8 +96,6 @@ Microsoft Copilot Studio kann mithilfe von Power Automate-Cloudflows auf Daten i
     ```
     first(outputs('List_rows')?['body/value'])['contoso_realestatepropertyid']
     ```
-
-    ![Screenshot der Konfiguration der Antwortaktion.](../media/create-flow-step5.png)
 
 1. Wählen Sie **Hinzufügen**.
 
@@ -118,6 +112,7 @@ Microsoft Copilot Studio kann mithilfe von Power Automate-Cloudflows auf Daten i
     ```
     first(outputs('List_rows')?['body/value'])['contoso_propertyname']
     ```
+    ![Screenshot der Konfiguration der Antwortaktion.](../media/create-flow-step5.png)
 
 1. Wählen Sie **Hinzufügen**.
 
@@ -129,41 +124,28 @@ Microsoft Copilot Studio kann mithilfe von Power Automate-Cloudflows auf Daten i
 
 1. Wählen Sie **Entwurf speichern** in der Nähe der oberen rechten Ecke der Seite.
 
-1. Warten Sie, bis der Speichervorgang abgeschlossen ist, wählen Sie **Veröffentlichen** und schließen Sie die Registerkarte „Power Automate“, sobald die Veröffentlichung abgeschlossen ist.
+1. Warten Sie, bis der Speichervorgang abgeschlossen ist, und wählen Sie dann **Veröffentlichen** aus. Wählen Sie im Popup **Ihr Agent-Flow wurde erfolgreich veröffentlicht!** die Option **Zum Agent zurückkehren** aus.
 
-### Aufgabe 1.2: Hinzufügen einer Agent-Aktion zum Abrufen einer Immobilie
+1. Klicken Sie auf die Registerkarte **Übersicht**.
 
-1. Wählen Sie **Aktualisieren** im Copilot Studio-Dialogfeld aus, um den neuen Flow zu sehen.
+1. Wählen Sie im Bereich **Details** die Option **Bearbeiten** aus. 
 
-    ![Screenshot von Schritt 1 zum Hinzufügen einer Flowaktion.](../media/add-action-flow-step-1.png)
+1. Aktualisieren des **Flownamens** zu `Get Property`
 
-1. Wählen Sie den Flow **Eigenschaft abrufen**.
+1. Wählen Sie**Speichern**
 
-1. Erweitern Sie **Eingaben und Ausgaben**.
+1. Wählen Sie **Agents** aus, und wählen Sie den Agent **Immobilienbuchungsdienst** aus. 
 
-    ![Screenshot des Hinzufügens von Ausgaben zu einer Flowaktion.](../media/add-action-flow-step-1a.png)
+1. Wählen Sie **Tools** aus, und sehen Sie sich den von Ihnen erstellten Flow „Eigenschaft abrufen“ an.
 
-1. Wählen Sie **+ Hinzufügen** für **Ausgabe**.
 
-1. Wählen Sie **PropertyId** aus.
-
-1. Wählen Sie **+ Hinzufügen** für **Ausgabe**.
-
-1. Wählen Sie **PropertyName** aus.
-
-    ![Screenshot der zu einer Flowaktion hinzugefügten Ausgaben.](../media/add-action-flow-step-1b.png)
-
-1. Wählen Sie **Aktion hinzufügen** aus.
-
-### Aufgabe 1.3: Hinzufügen der Agent-Aktion „Eigenschaft abrufen“ zum Thema
+### Aufgabe 1.2: Hinzufügen der Agent-Aktion „Eigenschaft abrufen“ zum Thema
 
 1. Wählen Sie die Registerkarte **Themen**.
 
 1. Wählen Sie das Thema **Immobilienbesichtigung buchen**.
 
-1. Wählen Sie das Symbol **+** unterhalb des Knotens **Wie viele Schlafzimmer benötigen Sie?**, wählen Sie **Aktion aufrufen** und wählen Sie dann den Flow **Eigenschaft abrufen**.
-
-    ![Screenshot von Schritt 2 zum Hinzufügen einer Flowaktion.](../media/add-action-flow-step-2.png)
+1. Wählen Sie das Symbol **+** unterhalb des Knotens **Wie viele Schlafzimmer benötigen Sie?** aus, wählen Sie **Tool hinzufügen** und dann den Flow **Eigenschaft abrufen** aus.
 
 1. Wählen Sie für den Eingabeparameter **Bedrooms** die Variable **NumberofBedrooms**.
 
@@ -183,17 +165,27 @@ Microsoft Copilot Studio kann mithilfe von Power Automate-Cloudflows auf Daten i
 
 ## Übung 2: Erstellen einer Agent-Aktion zum Erstellen von Daten in Dataverse
 
-Microsoft Copilot Studio kann Daten in Microsoft Dataverse mithilfe von Power Automate-Cloudflows erstellen.
+Microsoft Copilot Studio kann mithilfe von Agent-Flows Daten in Microsoft Dataverse erstellen.
 
-### Aufgabe 2.1: Erstellen eines Power Automate-Flows zum Durchführen einer Buchung
+### Aufgabe 2.1: Erstellen eines Agent-Flow zum Ausführen einer Buchung
 
-1. Wählen Sie die Registerkarte **Aktionen** in **Immobilien-Buchungsdienst** aus.
+1. Wählen Sie die Registerkarte **Tools** in **Immobilienbuchungsdienst** aus.
 
-1. Wählen Sie **+ Aktion hinzufügen** aus.
+1. Wählen Sie **+ Tool hinzufügen** aus.
 
-1. Wählen Sie **+ Neue Aktion** und dann **Neuer Power Automate-Flow**.
+1. Wählen Sie **+ Neues Tool** und dann **Agent-Flow** aus.
 
-1. Wählen Sie **Flow aus Copilot ausführen** in der oberen linken Ecke des Bildschirms und geben Sie `Create Booking Request` als Flownamen ein.
+1. Wählen Sie **Entwurf speichern** aus, und warten Sie, bis der Agent-Flow gespeichert wurde.
+
+1. Klicken Sie auf die Registerkarte **Übersicht**.
+
+1. Wählen Sie im Bereich **Details** die Option **Bearbeiten** aus. 
+
+1. Umbenennen des Flow `Create Booking Request`
+
+1. Wählen Sie **Speichern**.
+
+1. Wählen Sie die Registerkarte **Designer** aus.
 
 1. Wählen Sie den Trigger-Schritt **Wenn ein Agent den Flow anruft** und wählen Sie **+ Einen Input hinzufügen**.
 
@@ -243,15 +235,21 @@ Microsoft Copilot Studio kann Daten in Microsoft Dataverse mithilfe von Power Au
 
 1. Wählen Sie **Entwurf speichern** in der oberen rechten Ecke des Fensters.
 
-1. Warten Sie, bis die Speicherung abgeschlossen ist, wählen Sie **Veröffentlichen** und schließen Sie die Registerkarte „Power Automate“.
+1. Warten Sie, bis der Speichervorgang abgeschlossen ist, und wählen Sie dann **Veröffentlichen** aus.
 
-### Aufgabe 2.2: Hinzufügen einer Agent-Aktion zum Erstellen einer Buchungsanfrage
+1. Wählen Sie die Registerkarte **Übersicht** aus.
 
-1. Wählen Sie **Aktualisieren** im Copilot Studio-Dialogfeld aus, um den neuen Flow zu sehen.
+1. Wählen Sie im Bereich „Details“ die Option **Bearbeiten** aus.
 
-1. Wählen Sie den Flow **Buchungsanfrage erstellen**.
+1. Umbenennen des Agent-Flow `Create Booking Request`
 
-1. Wählen Sie **Aktion hinzufügen** aus.
+1. Wählen Sie **Speichern**.
+
+### Aufgabe 2.2: Überprüfen der Tools
+
+1. Wählen Sie **Agents** aus, und öffnen Sie den Agent **Immobilienbuchungsdienst**.
+
+1. Wählen Sie die Registerkarte **Tools** aus, und überprüfen Sie, ob sich beide Agent-Flows in der Liste befinden. Wählen Sie andernfalls **+Tool hinzufügen** > **Flow** > aus, und wählen Sie den fehlenden Agent-Flow aus. Wählen Sie **Zum Agent hinzufügen** aus.
 
 ### Aufgabe 2.3: Hinzufügen der Agent-Aktion „Buchungsanfrage erstellen“ zum Thema
 
@@ -259,7 +257,7 @@ Microsoft Copilot Studio kann Daten in Microsoft Dataverse mithilfe von Power Au
 
 1. Wählen Sie das Thema **Immobilienbesichtigung buchen**.
 
-1. Wählen Sie das Symbol **+** unterhalb des Knotens **An welchem Datum und zu welcher Uhrzeit möchten Sie die Immobilie sehen?**, wählen Sie **Aktion hinzufügen** und dann den Flow **Buchungsanfrage erstellen**.
+1. Wählen Sie das Symbol **+** unterhalb des Knotens **An welchem Datum und zu welcher Uhrzeit möchten Sie die Immobilie sehen?** aus, wählen Sie **Tool hinzufügen** und dann den Flow **Buchungsanfrage erstellen** aus.
 
 1. Wählen Sie die Variable **PropertyId** für den Eingabeparameter **PropertyId**.
 
@@ -285,7 +283,7 @@ Microsoft Copilot Studio kann Daten in Microsoft Dataverse mithilfe von Power Au
 
 1. Wenn sie nicht aktiviert ist, aktivieren Sie **Nachverfolgen der Themenverläufe**.
 
-1. Wählen Sie das Symbol **Neue Konversation beginnen** oben auf dem Bedienfeld für Tests.
+1. Wählen Sie das Symbol **Neue Konversation beginnen** (Aktualisieren) oben auf dem Testpanel aus.
 
 1. Wenn die Meldung **Gesprächsbeginn** erscheint, wird Ihr Agent ein Gespräch beginnen. Geben Sie als Antwort einen Triggerausdruck für das Thema ein, das Sie erstellt haben.
 
@@ -322,8 +320,10 @@ Microsoft Copilot Studio kann Daten in Microsoft Dataverse mithilfe von Power Au
 
 1. Stellen Sie sicher, dass Sie sich in der richtigen Umgebung befinden.
 
+1. Wählen Sie im linken Navigationsbereich die Option **Apps** aus.
+
 1. Wählen Sie **Wiedergeben** auf der modellgesteuerten App **Immobilienverwaltung**.
 
-1. Wählen Sie in der linken Navigation **Buchungsanfragen**.
+1. Wählen Sie in der linken Navigation **Buchungsanfragen**. Sehen Sie sich die Buchungsanfrage an, die Ihr Agent soeben für Sie erstellt hat.
 
     ![Screenshot des Maker-Portals mit den Daten der Buchungsanfrage.](../media/booking-request-row.png)

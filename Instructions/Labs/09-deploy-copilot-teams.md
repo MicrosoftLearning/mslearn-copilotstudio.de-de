@@ -58,23 +58,17 @@ Wenn Ihr Agent veröffentlicht wurde, können Sie Ihren Agent für Benutzende in
 
     ![Screenshot der Verfügbarkeitsoptionen des Teams-Kanals.](../media/teams-availability-options.png)
 
-1. Wählen Sie **Link kopieren** aus.
-
-1. Wählen Sie den Zurück-Pfeil oben links im Bereich aus.
-
 1. Wählen Sie **Mit einem Agent in Teams kommunizieren.**
 
 1. Wählen Sie **Abbrechen** im Dialogfeld für **Diese Seite versucht, Microsoft Teams zu öffnen**.
 
-1. Wählen Sie **Stattdessen die Web-App verwenden**.
+1. Wählen Sie im Popup **Abbrechen** aus, und wählen Sie **Stattdessen die Web-App verwenden** aus.
 
-1. Wählen Sie **Hinzufügen**.
+1. Wählen Sie **Hinzufügen** aus, um den Agent zu Teams hinzuzufügen.
 
     ![Screenshot des Dialogs zum Hinzufügen der App zu Teams.](../media/teams-add-app.png)
 
-1. Wählen Sie in der linken Leiste in Microsoft Teams die **Auslassungspunkte (...)** aus, um weitere Apps anzuzeigen und nach **Immobilien** zu suchen.
-
-1. Wählen Sie den **Immobilienbuchungsdienst**.
+1. Wählen Sie **Öffnen** aus. 
 
 1. Testen des Agents.
 

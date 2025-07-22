@@ -113,13 +113,14 @@ Sie können *Themen* verwenden, um explizite Antworten auf *Trigger* zu geben, w
 1. Kehren Sie zur Seite **Themen** zurück und sehen Sie sich die **System**-Themen an. Beachten Sie, dass diese Themen für allgemeine Ereignisse in einer Unterhaltung enthalten. Beachten Sie insbesondere die folgenden Systemthemen:
     - **Unterhaltungsförderung**: Dieses Thema wird ausgelöst, wenn die Benutzenden eine Nachricht einreichen, für die der Agent kein entsprechendes Thema identifizieren kann (die *Absicht* der Benutzenden ist unbekannt). Anschließend wird versucht, mithilfe von generativer KI auf die Nachricht der Benutzenden zu reagieren.
     - **Fallback**: Dieses Thema ist ein „Ausweich“-Thema, das reagiert, wenn die Absicht unbekannt ist und keine angemessene KI-Antwort generiert werden kann. Das Fallbackthema enthält eine Logik, die es den Benutzenden ermöglicht, bis zu dreimal einen erneuten Versuch zu unternehmen, bevor das Gespräch ordnungsgemäß beendet wird, oft durch Weiterleitung an einen menschlichen Operator.
-1. Kehren Sie zur Seite **Themen** zurück und wählen Sie im Menü **+ Thema hinzufügen** die Option **Thema**\>**Aus Beschreibung mit Copilot erstellen** aus.
+1. Kehren Sie zur Seite **Themen** zurück und wählen Sie im Menü **+ Thema hinzufügen** die Option **Thema** \> **Aus Beschreibung mit Copilot hinzufügen** aus.
 
-1. Im Dialogfeld **Aus Beschreibung mit Copilot erstellen** nennen Sie das neue Thema `Ask about expenses contact` und geben den folgenden Text ein, um Copilot Studio mitzuteilen, was das Thema tun soll:
+1. Im Dialogfeld **Aus Beschreibung mit Copilot hinzufügen** nennen Sie das neue Thema `Ask about expenses contact` und geben den folgenden Text ein, um Copilot Studio mitzuteilen, was das Thema tun soll:
 
     ```prompt
-    When the user asks who to contact about expense claims, tell them to send an email to finance@contoso.com.
+    When the user asks who to contact about expense claims, tell them to send an email to finance@contoso.com
     ```
+    > **Hinweis:** Copilot-Ergebnisse können variieren, daher müssen Sie möglicherweise mit dieser Aufforderung zu Ihren erwarteten Ergebnissen experimentieren. 
 
 1. Klicken Sie auf **Erstellen**.
 

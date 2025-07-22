@@ -39,7 +39,7 @@ Microsoft Copilot Studio verwendet Entitäten, um die Benutzerabsicht zu versteh
 
 1. Wählen Sie **Agenten** im linken Navigationsbereich aus.
 
-1. Wählen Sie den **Immobilienbuchungsdienst** aus, den Sie im vorherigen Lab erstellt haben.
+1. Wählen Sie den Agent **Immobilienbuchungsdienst** aus, den Sie im vorherigen Lab erstellt haben.
 
 1. Wählen Sie oben rechts auf dem Bildschirm **Einstellungen** aus.
 
@@ -93,13 +93,13 @@ Microsoft Copilot Studio verwendet Entitäten, um die Benutzerabsicht zu versteh
 
 1. Wählen Sie **Schließen** aus.
 
+1. Wählen Sie oben rechts das **X-Symbol** aus, um die Einstellungen zu schließen und zu Ihrem Agent zurückzukehren.
+
 ## Übung 2: Verwenden von Entitäten zur Verbesserung des Agents
 
 Verwenden Sie Entitäten im Unterhaltungsflow, um den Agent zu verbessern.
 
 ### Aufgabe 2.1: Verwenden von Entitäten
-
-1. Wählen Sie oben rechts das **X-Symbol** aus, um die Einstellungen zu schließen und zu Ihrem Agent zurückzukehren.
 
 1. Wählen Sie die Registerkarte **Themen**.
 
