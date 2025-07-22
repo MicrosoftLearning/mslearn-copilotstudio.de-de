@@ -40,8 +40,6 @@ In dieser Übung werden Sie Themen aus einem Agent entfernen.
 
 1. Navigieren Sie zum Microsoft Copilot Studio-Portal `https://copilotstudio.microsoft.com` und stellen Sie sicher, dass Sie sich in der entsprechenden Umgebung befinden.
 
-1. Wählen Sie die Schaltfläche **Testen** oben rechts auf dem Bildschirm aus, um das Bedienfeld zu schließen, falls es geöffnet ist.
-
 1. Wählen Sie **Agenten** im linken Navigationsbereich aus.
 
     ![Agents im Copilot Studio-Portal.](../media/copilot-studio-copilots.png)
@@ -49,8 +47,6 @@ In dieser Übung werden Sie Themen aus einem Agent entfernen.
 1. Wählen Sie den Agent, den Sie im vorherigen Lab erstellt haben.
 
 1. Wählen Sie die Registerkarte **Themen**.
-
-    ![Themenregisterkarte im Copilot Studio-Portal.](../media/topics-tab.png)
 
 1. Schalten Sie für das Thema **Neustart** **Aktiviert** auf **Aus**.
 
@@ -104,7 +100,7 @@ In dieser Übung erstellen Sie Themen in einem Agent und fügen Triggerausdrück
 
 Sie können nicht nur bestehende Knoten aktualisieren, sondern mit Copilot auch neue Knoten hinzufügen.
 
-1. Stellen Sie sicher, dass kein Knoten ausgewählt ist, indem Sie den leeren Bereich um die Knoten herum markieren.
+1. Stellen Sie sicher, dass kein Knoten ausgewählt ist, indem Sie den leeren Bereich im Dokumenterstellungsbereich auswählen.
 
 1. Geben Sie im Bereich **Mit Copilot bearbeiten** im Feld **Was möchten Sie tun?** den folgenden Text ein:
 
@@ -155,9 +151,9 @@ Sie können nicht nur bestehende Knoten aktualisieren, sondern mit Copilot auch 
     }
     ```
 
-1. Wenn Sie die Eigenschaften der adaptiven Karte öffnen, wird das Bedienfeld **Mit Copilot bearbeiten** geschlossen. Daher müssen Sie das Symbol **Copilot** auswählen, um es wieder zu öffnen.
+1. Wählen Sie das Symbol **Copilot** aus, um den Bereich **Mit Copilot bearbeiten** erneut zu öffnen.
 
-1. Stellen Sie sicher, dass kein Knoten ausgewählt ist, indem Sie den leeren Bereich um die Knoten herum markieren.
+1. Stellen Sie sicher, dass kein Knoten ausgewählt ist, indem Sie den leeren Bereich im Dokumenterstellungsbereich auswählen.
 
 1. Geben Sie im Feld **Was möchten Sie tun?** den folgenden Text ein:
 
@@ -165,17 +161,17 @@ Sie können nicht nur bestehende Knoten aktualisieren, sondern mit Copilot auch 
 
 1. Wählen Sie **Aktualisieren**.
 
-1. Am Ende des Themas wird ein neuer Frageknoten hinzugefügt, der Optionen für den Benutzer hinzufügt.
+Am Ende des Themas wird ein neuer Frageknoten hinzugefügt, der Optionen für den Benutzer hinzufügt.
 
-    ![Screenshot des neuen Fragenknotens mit Ja‑ und Nein-Optionen](../media/new-question-node.png)
+    ![Screenshot of the new question node with yes and no options.](../media/new-question-node.png)
 
 1. Wählen Sie **Speichern**.
 
 ### Aufgabe 2.4: Testen des Themas
 
-1. Wählen Sie die Schaltfläche **Testen** in der oberen rechten Ecke des Bildschirms, um das Bedienfeld zu öffnen, falls es geschlossen ist.
+1. Wenn das Panel **Agent testen** geschlossen ist, wählen Sie die Schaltfläche **Test** oben rechts auf dem Bildschirm aus.
 
-1. Wählen Sie das Symbol **Neue Konversation beginnen** oben auf dem Bedienfeld für Tests.
+1. Wählen Sie das Symbol **Neue Konversation beginnen** (Aktualisieren) oben auf dem Testpanel aus.
 
 1. Geben Sie in das Textfeld **Fragen stellen oder das Gesuchte beschreiben** **`Customer information`** ein.
 
@@ -213,7 +209,7 @@ Themen können manuell erstellt werden, indem Sie Triggerausdrücke hinzufügen.
 
 ### Aufgabe 3.2: Hinzufügen von Triggerausdrücken
 
-1. Wählen Sie **Bearbeiten** unter **Ausdrücke** im Menü **Auslöser**.
+1. Wählen Sie **Bearbeiten** unter **Benutzer verwendet einen Ausdruck** im **Trigger** aus.
 
     ![Screenshot des Bereichs „Thema-Triggerausdrücke“.](../media/topic-trigger-phrases.png)
 

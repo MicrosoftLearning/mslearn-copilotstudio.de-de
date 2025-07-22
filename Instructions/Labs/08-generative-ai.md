@@ -31,7 +31,7 @@ Diese Übung dauert etwa **30** Minuten.
 
 ## Übung 1: Konfigurieren von generativer KI
 
-### Aufgabe 1.1: Aktivieren von generativer KI
+### Aufgabe 1.1: Aktivieren der Orchestrierung
 
 1. Wenn es noch nicht geöffnet ist, rufen Sie das Microsoft Copilot Studio-Portal `https://copilotstudio.microsoft.com` auf und stellen Sie sicher, dass Sie sich in der entsprechenden Umgebung befinden.
 
@@ -41,17 +41,7 @@ Diese Übung dauert etwa **30** Minuten.
 
 1. Wählen Sie die Schaltfläche **Einstellungen** oben rechts auf dem Bildschirm.
 
-1. Wählen Sie die Registerkarte **Generative KI**.
-
-1. Wählen Sie **Generativ** unter **Wie sollte Ihr Agent mit Menschen interagieren?**.
-
-1. Wählen Sie **Mittel – Ausgewogener** für **Wie streng soll die Inhaltsmoderation sein?**.
-
-1. Wählen Sie **Speichern**.
-
-    ![Generativer KI-Bereich in den Copilot Studio-Einstellungen](../media/settings-generative-ai-2.png)
-
-1. Schließen Sie das Menü **Einstellungen**, indem Sie das Symbol **X** in der oberen rechten Ecke von Copilot Studio auswählen.
+1. Stellen Sie im Abschnitt **Details** die Orchestrierung auf **Aktiviert** um.
 
 ### Aufgabe 1.2: Verwenden von generativen Antworten im Thema „Unterhaltungsförderung“
 
@@ -63,19 +53,9 @@ Diese Übung dauert etwa **30** Minuten.
 
 1. Überprüfen Sie den Knoten **Generative Antworten erzeugen**.
 
-### Aufgabe 1.3: Aktivieren von Wissen
+### Aufgabe 1.3: Konfigurieren der Authentifizierung
 
-1. Klicken Sie auf die Registerkarte **Übersicht**.
-
-1. Überprüfen Sie, ob Allgemeinwissen **Aktiviert** ist.
-
-    ![Screenshot des aktivierten Allgemeinwissens.](../media/general-knowledge-2.png)
-
-1. Die öffentliche Website sollte in einem vorherigen Lab als Wissensquelle hinzugefügt werden.
-
-### Aufgabe 1.4: Konfigurieren der Authentifizierung
-
-1. Wählen Sie oben rechts auf dem Bildschirm **Einstellungen** aus.
+1. Wählen Sie die Auslassungspunkte (**...**) > **Einstellungen** oben rechts auf dem Bildschirm aus.
 
 1. Wählen Sie die Registerkarte **Sicherheit** .
 
@@ -149,9 +129,7 @@ Diese Übung dauert etwa **30** Minuten.
 
 1. Deaktivieren Sie **Der KI erlauben, ihr eigenes Allgemeinwissen zu verwenden**.
 
-1. Aktivieren Sie das Kontrollkästchen **Anpassen** unter **Wie streng soll die Inhaltsmoderation sein?** und wählen Sie dann **Mittel**.
-
-    ![Screenshot der Konfiguration der generativen Antworten.](../media/fallback-topic-answers-knowledge-2.png)
+1. Aktivieren Sie das Kontrollkästchen **Anpassen** unter **Inhaltsmoderationsebene**, und wählen Sie **mittel** aus.
 
 1. Wählen Sie **Speichern**.
 

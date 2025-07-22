@@ -37,9 +37,7 @@ Auf Variablen kann von anderen Themen zugegriffen werden.
 
 ### Aufgabe 1.1: Konfigurieren des Bereichs der Variablen
 
-1. Navigieren Sie zum Microsoft Studio-Portal `https://copilotstudio.microsoft.com` und stellen Sie sicher, dass Sie sich in der entsprechenden Umgebung befinden.
-
-1. Wählen Sie die Schaltfläche **Testen** oben rechts auf dem Bildschirm aus, um das Bedienfeld zu schließen, falls es geöffnet ist.
+1. Navigieren Sie zum Copilot Studio-Portal `https://copilotstudio.microsoft.com`, und stellen Sie sicher, dass Sie sich in der entsprechenden Umgebung befinden.
 
 1. Wählen Sie **Agenten** im linken Navigationsbereich aus.
 
@@ -79,7 +77,7 @@ Der Unterhaltungsflow in einem Thema kann manuell erstellt werden, indem Knoten 
 
 ### Aufgabe 2.2: Hinzufügen eines Themenverwaltungsknotens
 
-1. Wählen Sie das Symbol **+** unter dem Knoten **Nachricht**, **Themenverwaltung** aus, dann **Zu einem anderen Thema wechseln** und wählen Sie dann **Kundendetails**.
+1. Wählen Sie das Symbol **+** unter dem Knoten **Nachricht** aus, wählen Sie dann **Themenverwaltung** > **Zu einem anderen Thema wechseln** > **Kundendetails** aus.
 
     ![Screenshot des Hinzufügens eines Themenverwaltungsknotens.](../media/topic-management-node.png)
 
@@ -137,7 +135,7 @@ Der Unterhaltungsflow in einem Thema kann manuell erstellt werden, indem Knoten 
 
     ![Screenshot der Bedienfeldoptionen für Tests.](../media/test-pane-options.png)
 
-1. Wählen Sie das Symbol **Neue Konversation beginnen** oben auf dem Bedienfeld für Tests.
+1. Wählen Sie das Symbol **Neue Konversation beginnen** (Aktualisieren) oben auf dem Testpanel aus.
 
 1. Wenn die Meldung **Gesprächsbeginn** erscheint, wird Ihr Agent ein Gespräch beginnen. Geben Sie als Antwort einen Triggerausdruck für das Thema ein, das Sie erstellt haben.
 

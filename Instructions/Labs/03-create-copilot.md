@@ -39,8 +39,6 @@ In dieser Übung greifen Sie auf das Microsoft Copilot Studio-Portal und die Umg
 
 1. Navigieren Sie in einer neuen Registerkarte zum Microsoft Copilot Studio-Portal `https://copilotstudio.microsoft.com` und melden Sie sich mit Ihren Microsoft 365-Anmeldedaten an, wenn Sie erneut dazu aufgefordert werden.
 
-1. Wenn Sie dazu aufgefordert werden, wählen Sie **Kostenlose Testversion beginnen**.
-
 1. Stellen Sie sicher, dass Sie sich in der entsprechenden Umgebung befinden.
 
 ### Aufgabe 1.2: Erstellen eines Agents
@@ -71,7 +69,7 @@ In dieser Übung greifen Sie auf das Microsoft Copilot Studio-Portal und die Umg
 
 1. Wählen Sie oben rechts auf dem Bildschirm **Erstellen**.
 
-1. Geben Sie im rechten Fenster **Agent testen** **`How do I make a booking?`** ein. Zeigen Sie die Antwort an.
+1. Geben Sie im rechten Bereich **Agent testen** **`How do I make a booking?`** ein, und zeigen Sie die Antwort an.
 
 Lassen Sie dieses Fenster geöffnet.
 
@@ -81,17 +79,11 @@ In dieser Übung greifen Sie auf das Microsoft Copilot Studio-Portal zu und füg
 
 ### Aufgabe 2.1 – Deaktivieren der generativen Orchestrierung
 
-1. Stellen Sie auf der Registerkarte **Übersicht** sicher, dass Sie **Generative KI verwenden, um zu ermitteln, wie Sie am besten auf Benutzende und Ereignisse reagieren können.** im Abschnitt **Details** auf **Deaktiviert** festgelegt ist.
+1. Stellen Sie auf der Registerkarte **Übersicht** sicher, dass Sie **Generative KI verwenden, um zu ermitteln, wie Sie am besten auf Benutzende und Ereignisse reagieren können.** im Abschnitt **Details** auf **Deaktiviert** festgelegt ist. Dadurch wird die Orchestrierung für den Zweck dieses Labs deaktiviert.
 
     ![Generative Orchestrierung deaktiviert](../media/settings-generative-ai-1.png)
 
-### Aufgabe 2.2: Aktivieren von generativen KI-Antworten
-
-1. Stellen Sie auf der Registerkarte **Übersicht** sicher, dass **KI sein eigenes allgemeines Wissen zu nutzen erlauben** im Abschnitt **Wissen** auf **Aktiviert** festgelegt ist.
-
-    ![Aktiviertes Wissen im Copilot Studio Portal.](../media/knowledge-enabled.png)
-
-### Aufgabe 2.3: Hinzufügen einer Wissensquelle
+### Aufgabe 2.2: Hinzufügen einer Wissensquelle
 
 1. Wählen Sie die Registerkarte **Wissen**.
 
@@ -121,6 +113,6 @@ In dieser Übung greifen Sie auf das Microsoft Copilot Studio-Portal zu und füg
 
     ![Screenshot der Bedienfeldoptionen für Tests.](../media/copilot-test-pane-start-new-conversation.png)
 
-1. Geben Sie in das Textfeld **Fragen stellen oder das Gesuchte beschreiben** **`How do I boost real estate promotion?`** ein.
+1. Geben Sie in das Textfeld **Fragen stellen oder das Gesuchte beschreiben** **`How do I boost real estate promotion?`** ein. Zeigen Sie Ihre Antwort an. 
 
     ![Screenshot der Ergebnisse des Bedienfelds „Testen“.](../media/test-pane-results.png)
