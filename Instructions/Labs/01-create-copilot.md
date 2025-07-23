@@ -118,7 +118,7 @@ Sie können *Themen* verwenden, um explizite Antworten auf *Trigger* zu geben, w
 1. Im Dialogfeld **Aus Beschreibung mit Copilot hinzufügen** nennen Sie das neue Thema `Ask about expenses contact` und geben den folgenden Text ein, um Copilot Studio mitzuteilen, was das Thema tun soll:
 
     ```prompt
-    When the user asks who to contact about expense claims, tell them to send an email to finance@contoso.com
+    When the user asks who to contact about expense claims, tell them to send an email to finance@contoso.com.
     ```
     > **Hinweis:** Copilot-Ergebnisse können variieren, daher müssen Sie möglicherweise mit dieser Aufforderung zu Ihren erwarteten Ergebnissen experimentieren. 
 
