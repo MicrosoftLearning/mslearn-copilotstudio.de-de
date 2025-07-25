@@ -1,6 +1,6 @@
 ---
 lab:
-  title: Erstellen von Agentaktionen
+  title: Erstellen von Agent-Flows
   module: Enhance Microsoft Copilot Studio agents
 ---
 
@@ -20,8 +20,8 @@ Diese Übung dauert etwa **30** Minuten.
 
 ## Weiterführende Schritte des Lab
 
-- Erstellen eines Agent-Flows zum Abrufen von Dataverse-Daten mit einer Agent-Aktion
-- Erstellen eines Agent-Flows zum Erstellen von Dataverse-Daten mit einer Agent-Aktion
+- Erstellen eines Agent-Flows zum Abrufen von Dataverse-Daten
+- Erstellen eines Agent-Flows zum Erstellen von Dataverse-Daten
   
 ## Voraussetzungen
 
@@ -29,7 +29,7 @@ Diese Übung dauert etwa **30** Minuten.
 
 ## Ausführliche Schritte
 
-## Übung 1: Erstellen einer Agent-Aktion zum Abrufen von Daten aus Dataverse
+## Übung 1: Erstellen eines Tools zum Abrufen von Daten aus Dataverse
 
 Microsoft Copilot Studio kann mithilfe von Agent-Flows auf Daten in Microsoft Dataverse zugreifen.
 
@@ -139,7 +139,7 @@ Microsoft Copilot Studio kann mithilfe von Agent-Flows auf Daten in Microsoft Da
 1. Wählen Sie **Tools** aus, und sehen Sie sich den von Ihnen erstellten Flow „Eigenschaft abrufen“ an.
 
 
-### Aufgabe 1.2: Hinzufügen der Agent-Aktion „Eigenschaft abrufen“ zum Thema
+### Aufgabe 1.2: Hinzufügen des Tools „Eigenschaft abrufen“ zum Thema
 
 1. Wählen Sie die Registerkarte **Themen**.
 
@@ -163,7 +163,7 @@ Microsoft Copilot Studio kann mithilfe von Agent-Flows auf Daten in Microsoft Da
 
 1. Wählen Sie **Speichern**.
 
-## Übung 2: Erstellen einer Agent-Aktion zum Erstellen von Daten in Dataverse
+## Übung 2: Erstellen eines Tools zum Erstellen von Daten in Dataverse
 
 Microsoft Copilot Studio kann mithilfe von Agent-Flows Daten in Microsoft Dataverse erstellen.
 
@@ -251,7 +251,7 @@ Microsoft Copilot Studio kann mithilfe von Agent-Flows Daten in Microsoft Datave
 
 1. Wählen Sie die Registerkarte **Tools** aus, und überprüfen Sie, ob sich beide Agent-Flows in der Liste befinden. Wählen Sie andernfalls **+Tool hinzufügen** > **Flow** > aus, und wählen Sie den fehlenden Agent-Flow aus. Wählen Sie **Zum Agent hinzufügen** aus.
 
-### Aufgabe 2.3: Hinzufügen der Agent-Aktion „Buchungsanfrage erstellen“ zum Thema
+### Aufgabe 2.3: Hinzufügen des Tools „Buchungsanfrage erstellen“ zum Thema
 
 1. Wählen Sie die Registerkarte **Themen**.
 
@@ -271,7 +271,7 @@ Microsoft Copilot Studio kann mithilfe von Agent-Flows Daten in Microsoft Datave
 
 1. Wählen Sie **Veröffentlichen** und wählen Sie erneut **Veröffentlichen** aus.
 
-## Übung 3: Testen der Agent-Aktionen
+## Übung 3: Testen Ihres Agents
 
 ### Aufgabe 3.1: Stellen einer Buchungsanfrage
 
