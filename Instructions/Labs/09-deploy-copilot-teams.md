@@ -68,7 +68,7 @@ Wenn Ihr Agent veröffentlicht wurde, können Sie Ihren Agent für Benutzende in
 
     ![Screenshot des Dialogs zum Hinzufügen der App zu Teams.](../media/teams-add-app.png)
 
-1. Wählen Sie **Öffnen** aus. 
+1. Wählen Sie **Öffnen** aus.
 
 1. Testen des Agents.
 
