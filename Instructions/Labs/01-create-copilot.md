@@ -16,7 +16,7 @@ Diese Übung dauert etwa **30** Minuten.
 
 Beginnen wir damit, mit Copilot Studio einen neuen Agenten zu erstellen. Der Agent verfügt zunächst über sehr begrenzte Funktionen, die Sie später in der Übung erweitern werden.
 
-1. Navigieren Sie in einem Webbrowser zu [Copilot Studio](https://copilotstudio.microsoft.com/) unter `https://copilotstudio.microsoft.com/` und melden Sie sich mit Ihrem Arbeits- oder Schulkonto an, wenn Sie dazu aufgefordert werden. Überspringen Sie alle Begrüßungsnachrichten.
+1. Navigieren Sie in einem Webbrowser zu **Copilot Studio** unter `https://copilotstudio.microsoft.com/` und melden Sie sich mit Ihrem Arbeits- oder Schulkonto an, wenn Sie dazu aufgefordert werden. Überspringen Sie alle Begrüßungsnachrichten.
 
     > **Hinweis:** Wenn Sie Copilot Studio zum ersten Mal öffnen, wird möglicherweise eine Chat-Oberfläche angezeigt, über die Sie Ihren ersten Agent erstellen können. In diesem Fall klicken Sie oben rechts auf das Menü **...** (neben der Schaltfläche **Erstellen**) und wählen Sie **Erstellung des Agents abbrechen**, um die Chat-Oberfläche zu verlassen und die Startseite von Copilot Studio aufzurufen.
 
