@@ -54,10 +54,6 @@ Wenn Ihr Agent veröffentlicht wurde, können Sie Ihren Agent für Benutzende in
 
 1. Wählen Sie **Kanal hinzufügen** aus.
 
-1. Wählen Sie **Verfügbarkeitsoptionen** aus.
-
-    ![Screenshot der Verfügbarkeitsoptionen des Teams-Kanals.](../media/teams-availability-options.png)
-
 1. Wählen Sie **Mit einem Agent in Teams kommunizieren.**
 
 1. Wählen Sie **Abbrechen** im Dialogfeld für **Diese Seite versucht, Microsoft Teams zu öffnen**.
@@ -68,7 +64,7 @@ Wenn Ihr Agent veröffentlicht wurde, können Sie Ihren Agent für Benutzende in
 
     ![Screenshot des Dialogs zum Hinzufügen der App zu Teams.](../media/teams-add-app.png)
 
-1. Wählen Sie **Öffnen** aus.
+1. Wählen Sie **Öffnen** aus, und warten Sie, bis der Agent in Teams geladen wurde.
 
 1. Testen des Agents.
 

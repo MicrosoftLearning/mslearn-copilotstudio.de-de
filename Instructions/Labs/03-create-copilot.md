@@ -43,7 +43,9 @@ In dieser Übung greifen Sie auf das Microsoft Copilot Studio-Portal und die Umg
 
 ### Aufgabe 1.2: Erstellen eines Agents
 
-1. Wählen Sie im linken Navigationsbereich **Erstellen**, danach oben rechts **+ Neuer Agent** und anschließend **Zur Konfiguration wechseln** aus.
+1. Wählen Sie **Erstellen** im linken Navigationsbereich aus, und wählen Sie **+ Neuer Agent** aus.
+
+1. Wählen Sie die Registerkarte **Konfigurieren** aus.
 
 1. Geben Sie in das Textfeld **Name** **`Real Estate Booking Service`** ein.
 
@@ -51,13 +53,7 @@ In dieser Übung greifen Sie auf das Microsoft Copilot Studio-Portal und die Umg
 
 1. Geben Sie in das Textfeld **Anweisungen** **`Create an agent for topics relating to creating bookings for real estate properties`** ein.
 
-1. Oben sollte **Sprache** auf **Englisch (en-US)** festgelegt werden.
-
-    ![Sprache des Copilot-Agents.](../media/copilot-agent-language.png)
-
-1. Wählen Sie die **drei Punkte** oben rechts auf der Seite und wählen Sie **Erweiterte Einstellungen bearbeiten**.
-
-    ![Weitere Optionen im Copilot Studio-Portal.](../media/copilot-studio-more-options-2.png)
+1. Wählen Sie die Auslassungspunkte (**...**) aus, und wählen Sie **Erweiterte Einstellungen aktualisieren** aus.
 
 1. Wählen Sie **Buchungen** unter **Lösung** aus.
 
@@ -65,9 +61,9 @@ In dieser Übung greifen Sie auf das Microsoft Copilot Studio-Portal und die Umg
 
     ![Erweiterte Einstellungen im Copilot Studio-Portal.](../media/copilot-studio-advanced-settings.png)
 
-1. Wählen Sie **Speichern**.
+1. Wählen Sie **Aktualisieren**.
 
-1. Wählen Sie oben rechts auf dem Bildschirm **Erstellen**.
+1. Wählen Sie oben rechts auf dem Bildschirm **Erstellen**. Warten Sie, bis der Agent die Einrichtung abgeschlossen hat.
 
 1. Geben Sie im rechten Bereich **Agent testen** **`How do I make a booking?`** ein, und zeigen Sie die Antwort an.
 
@@ -99,7 +95,7 @@ In dieser Übung greifen Sie auf das Microsoft Copilot Studio-Portal zu und füg
 
 1. Wählen Sie **Hinzufügen**.
 
-1. Wählen Sie **Hinzufügen**.
+1. Wählen Sie **Zum Agent hinzufügen** aus.
 
 1. Klicken Sie auf die Registerkarte **Übersicht**.
 
@@ -109,7 +105,7 @@ In dieser Übung greifen Sie auf das Microsoft Copilot Studio-Portal zu und füg
 
     ![Screenshot der Bedienfeldoptionen für Tests.](../media/test-pane-options.png)
 
-1. Wählen Sie oben im Bereich **Agenten testen** das Symbol **Eine neue Konversation beginnen** (Aktualisierungssymbol) aus.
+1. Wählen Sie oben im Bereich **Agent testen** das Symbol **Neue Testsitzung beginnen** aus.
 
     ![Screenshot der Bedienfeldoptionen für Tests.](../media/copilot-test-pane-start-new-conversation.png)
 

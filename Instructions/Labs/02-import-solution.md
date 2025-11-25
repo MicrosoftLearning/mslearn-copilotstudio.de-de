@@ -18,9 +18,7 @@ In dieser Übung importieren Sie eine Dataverse-Lösung in Ihre Umgebung, die di
 
 ### Aufgabe 1.1: Herunterladen der Lösung
 
-1. Navigieren Sie auf einer neuen Browserregisterkarte zu der Datei **Bookings_1_0_0_0.zip** in GitHub unter `https://github.com/MicrosoftLearning/mslearn-copilotstudio/blob/main/Allfiles/Bookings_1_0_0_0.zip`.
-
-1. Wählen Sie die **Auslassungspunkte (...)** in der Nähe der oberen rechten Ecke und wählen Sie **Herunterladen**.
+1. Navigieren Sie auf einer neuen Browserregisterkarte zu `https://github.com/MicrosoftLearning/mslearn-copilotstudio/raw/main/Allfiles/Bookings_1_0_0_0.zip`, um die Datei **Bookings_1_0_0_0.zip** herunterzuladen.
 
 1. Schließen Sie die Browserregisterkarte.
 
@@ -64,7 +62,7 @@ In dieser Übung importieren Sie eine Dataverse-Lösung in Ihre Umgebung, die di
 
 1. Wählen Sie in der linken Navigation der Buchungslösung die Registerkarte **Objekte**.
 
-1. Wählen Sie das Auslassungszeichen (**...**). Wählen Sie **Spielen** auf der modellgesteuerten App **Immobilienverwaltung**.
+1. Wählen Sie das Auslassungszeichen (**...**). Wählen Sie **Spielen** auf der modellgesteuerten App **Immobilienverwaltung**. Dies ist eine einfache modellgesteuerte App, mit der Sie neue Immobilieneigenschaftendatensätze erstellen können. 
 
     ![Übersicht.](../media/play-app.png)
 
@@ -73,7 +71,7 @@ In dieser Übung importieren Sie eine Dataverse-Lösung in Ihre Umgebung, die di
 1. Geben Sie die folgenden Daten ein:
 
     - **Eigenschaftenname:**`1100 High Villas`
-    - **Besitzer:** Wählen Sie das Benutzerkonto aus.
+    - **Besitzer**: Wählen Sie Ihren Benutzer aus (suchen Sie nach Ihrem bereitgestellten Benutzernamen).
     - **Preisvorstellung:**`250,000`
     - **Straße:**`Main Avenue`
     - **Stadt:**`Redmond`

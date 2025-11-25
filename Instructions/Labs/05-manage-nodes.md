@@ -41,13 +41,13 @@ Auf Variablen kann von anderen Themen zugegriffen werden.
 
 1. Wählen Sie **Agenten** im linken Navigationsbereich aus.
 
-1. Wählen Sie den Agent aus, den Sie im vorherigen Lab erstellt haben.
+1. Wählen Sie den Agent „Immobilienbuchung“ aus, den Sie im vorherigen Lab erstellt haben.
 
 1. Wählen Sie die Registerkarte **Themen**.
 
 1. Wählen Sie das Thema **Kundendetails**.
 
-1. Wählen Sie **Variablen** in der oberen Leiste, um den Variablenbereich zu öffnen.
+1. Wählen Sie **Variablen** in der oberen Leiste aus, um den Bereich „Variablen“ zu öffnen. (Möglicherweise müssen Sie **Weitere** \> **Variablen** auswählen.)
 
 1. Aktivieren Sie die Kontrollkästchen rechts für die drei Themenvariablen.
 
@@ -123,6 +123,12 @@ Der Unterhaltungsflow in einem Thema kann manuell erstellt werden, indem Knoten 
 
 1. Wählen Sie die Variable in **Benutzerantwort speichern unter** und geben Sie **`DateTime`** für **Variablenname** ein.
 
+1. Wählen Sie das Symbol **+** unter dem Knoten **Frage** aus, und wählen Sie **Nachricht senden** aus.
+
+1. Geben Sie in das Feld **Nachricht eingeben** den folgenden Text ein:
+
+    `Great! Let me get that scheduled for you.`
+
 1. Wählen Sie **Speichern**.
 
 ### Aufgabe 2.5 – Testen des Agents
@@ -135,7 +141,7 @@ Der Unterhaltungsflow in einem Thema kann manuell erstellt werden, indem Knoten 
 
     ![Screenshot der Bedienfeldoptionen für Tests.](../media/test-pane-options.png)
 
-1. Wählen Sie das Symbol **Neue Konversation beginnen** (Aktualisieren) oben auf dem Testpanel aus.
+1. Wählen Sie das Symbol **Neue Testsitzung beginnen** oben auf dem Testpanel aus.
 
 1. Wenn die Meldung **Gesprächsbeginn** erscheint, wird Ihr Agent ein Gespräch beginnen. Geben Sie als Antwort einen Triggerausdruck für das Thema ein, das Sie erstellt haben.
 

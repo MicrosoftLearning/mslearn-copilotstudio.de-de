@@ -44,7 +44,7 @@ In dieser Übung werden Sie Themen aus einem Agent entfernen.
 
     ![Agents im Copilot Studio-Portal.](../media/copilot-studio-copilots.png)
 
-1. Wählen Sie den Agent, den Sie im vorherigen Lab erstellt haben.
+1. Wählen Sie den Agent „Immobilienbuchungsdienst“ aus, den Sie im vorherigen Lab erstellt haben.
 
 1. Wählen Sie die Registerkarte **Themen**.
 
@@ -151,7 +151,7 @@ Sie können nicht nur bestehende Knoten aktualisieren, sondern mit Copilot auch 
     }
     ```
 
-1. Wählen Sie das Symbol **Copilot** aus, um den Bereich **Mit Copilot bearbeiten** erneut zu öffnen.
+1. Wählen Sie das Symbol **Copilot** aus, (Möglicherweise müssen Sie **Weitere** \> **Copilot** auswählen), um den Bereich **Mit Copilot bearbeiten** erneut zu öffnen.
 
 1. Stellen Sie sicher, dass kein Knoten ausgewählt ist, indem Sie den leeren Bereich im Dokumenterstellungsbereich auswählen.
 
@@ -161,9 +161,9 @@ Sie können nicht nur bestehende Knoten aktualisieren, sondern mit Copilot auch 
 
 1. Wählen Sie **Aktualisieren**.
 
-Am Ende des Themas wird ein neuer Frageknoten hinzugefügt, der Optionen für den Benutzer hinzufügt.
+1. Am Ende des Themas wird ein neuer Frageknoten hinzugefügt, der Optionen für den Benutzer hinzufügt.
 
-    ![Screenshot of the new question node with yes and no options.](../media/new-question-node.png)
+    ![Screenshot des neuen Fragenknotens mit Ja‑ und Nein-Optionen](../media/new-question-node.png)
 
 1. Wählen Sie **Speichern**.
 
@@ -171,13 +171,17 @@ Am Ende des Themas wird ein neuer Frageknoten hinzugefügt, der Optionen für de
 
 1. Wenn das Panel **Agent testen** geschlossen ist, wählen Sie die Schaltfläche **Test** oben rechts auf dem Bildschirm aus.
 
-1. Wählen Sie das Symbol **Neue Konversation beginnen** (Aktualisieren) oben auf dem Testpanel aus.
+1. Wählen Sie das Symbol **Neue Testsitzung beginnen** oben auf dem Testpanel aus.
+
+    ![Screenshot der Bedienfeldoptionen für Tests.](../media/copilot-test-pane-start-new-conversation.png)
 
 1. Geben Sie in das Textfeld **Fragen stellen oder das Gesuchte beschreiben** **`Customer information`** ein.
 
 1. Geben Sie Ihren Namen und Ihre E-Mail-Adresse ein.
 
 1. Wählen Sie **Ja** aus.
+
+1. Wählen Sie**Speichern**
 
 ## Übung 3: Manuelles Erstellen von Themen
 
@@ -189,7 +193,7 @@ Themen können manuell erstellt werden, indem Sie Triggerausdrücke hinzufügen.
 
 1. Wählen Sie **+ Thema hinzufügen** und dann **Ohne Vorlage**.
 
-1. Wählen Sie das Symbol **Details**, um das Dialogfeld „Details“ zum Thema zu öffnen.
+1. Wählen Sie das Symbol **Details** aus, um das Dialogfeld „Themendetails“ zu öffnen. (Möglicherweise müssen Sie **Weitere** \> **Details** auswählen).
 
     ![Screenshot des Dialogs mit den Themendetails. ](../media/topic-details.png)
 
@@ -205,7 +209,7 @@ Themen können manuell erstellt werden, indem Sie Triggerausdrücke hinzufügen.
 
     `Select the property and requested date and create a booking request`
 
-1. Wählen Sie **Speichern**.
+1. Wählen Sie **Speichern**. Wählen Sie **Veröffentlichen** \> **Veröffentlichen** aus. 
 
 ### Aufgabe 3.2: Hinzufügen von Triggerausdrücken
 

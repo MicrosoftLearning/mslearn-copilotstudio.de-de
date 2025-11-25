@@ -43,7 +43,7 @@ Microsoft Copilot Studio verwendet Entitäten, um die Benutzerabsicht zu versteh
 
 1. Wählen Sie oben rechts auf dem Bildschirm **Einstellungen** aus.
 
-1. Wählen Sie die Registerkarte **Entitäten** aus.
+1. Wählen Sie die Registerkarte **Entitäten** aus. Es sollte eine Liste der vordefinierten Entitäten für Ihren Agent angezeigt werden.
 
     ![Screenshot der Registerkarte „Entitäten“.](../media/system-entities.png)
 
@@ -77,7 +77,7 @@ Microsoft Copilot Studio verwendet Entitäten, um die Benutzerabsicht zu versteh
 
 1. Wählen Sie **Speichern**.
 
-1. Wählen Sie **Schließen** aus.
+1. Schließen Sie das Fenster „Eigenschaftentyp“.
 
 ### Aufgabe 1.3: Erstellen der Anzahl der Schlafzimmer-Entität
 
@@ -91,7 +91,7 @@ Microsoft Copilot Studio verwendet Entitäten, um die Benutzerabsicht zu versteh
 
 1. Wählen Sie **Speichern**.
 
-1. Wählen Sie **Schließen** aus.
+1. Schließen Sie den Bereich „Anzahl der Schlafzimmer“.
 
 1. Wählen Sie oben rechts das **X-Symbol** aus, um die Einstellungen zu schließen und zu Ihrem Agent zurückzukehren.
 

@@ -124,19 +124,19 @@ Microsoft Copilot Studio kann mithilfe von Agent-Flows auf Daten in Microsoft Da
 
 1. Wählen Sie **Entwurf speichern** in der Nähe der oberen rechten Ecke der Seite.
 
-1. Warten Sie, bis der Speichervorgang abgeschlossen ist, und wählen Sie dann **Veröffentlichen** aus. Wählen Sie im Popup **Ihr Agent-Flow wurde erfolgreich veröffentlicht!** die Option **Zum Agent zurückkehren** aus.
+1. Warten Sie, bis der Speichervorgang abgeschlossen ist, und wählen Sie dann **Veröffentlichen** aus.
 
-1. Klicken Sie auf die Registerkarte **Übersicht**.
+1. Wählen Sie im Popup **Ihr Agent-Flow wurde erfolgreich veröffentlicht!** die Option **Zum Agent zurückkehren** aus.
 
-1. Wählen Sie im Bereich **Details** die Option **Bearbeiten** aus. 
+1. Wählen Sie das soeben erstellte Agent-Flowtool aus. 
 
-1. Aktualisieren des **Flownamens** zu `Get Property`
+1. Aktualisieren Sie im Abschnitt **Details** den **Flownamen** auf `Get Property`.
+
+1. Aktualisieren der **Beschreibung** auf `Get properties with the right number of bedrooms.`
 
 1. Wählen Sie**Speichern**
 
-1. Wählen Sie **Agents** aus, und wählen Sie den Agent **Immobilienbuchungsdienst** aus. 
-
-1. Wählen Sie **Tools** aus, und sehen Sie sich den von Ihnen erstellten Flow „Eigenschaft abrufen“ an.
+1. Wählen Sie die Registerkarte **Tools** aus, und sehen Sie sich den von Ihnen erstellten Flow „Eigenschaft abrufen“ an.
 
 
 ### Aufgabe 1.2: Hinzufügen des Tools „Eigenschaft abrufen“ zum Thema
@@ -147,13 +147,9 @@ Microsoft Copilot Studio kann mithilfe von Agent-Flows auf Daten in Microsoft Da
 
 1. Wählen Sie das Symbol **+** unterhalb des Knotens **Wie viele Schlafzimmer benötigen Sie?** aus, wählen Sie **Tool hinzufügen** und dann den Flow **Eigenschaft abrufen** aus.
 
-1. Wählen Sie für den Eingabeparameter **Bedrooms** die Variable **NumberofBedrooms**.
+1. Wählen Sie die **drei Punkte (...)** im Frageknoten **Welche Eigenschaft möchten Sie sehen?** aus, und wählen Sie **Löschen** aus.
 
-    ![Screenshot von Schritt 3 zum Hinzufügen einer Flowaktion.](../media/add-action-flow-step-3.png)
-
-1. Markieren Sie die **drei Punkte** im Frageknoten **Welche Eigenschaft möchten Sie sehen?** und wählen Sie **Löschen**.
-
-1. Wählen Sie das Symbol **+** unter dem Knoten **Aktion** und wählen Sie **Nachricht senden**.
+1. Wählen Sie das Symbol **+** unter dem Knoten **Tool** aus, und wählen Sie **Nachricht senden** aus.
 
 1. In das Feld **Nachricht eingeben** geben Sie `Property ` ein (mit einem Leerzeichen dahinter).
 
@@ -237,14 +233,6 @@ Microsoft Copilot Studio kann mithilfe von Agent-Flows Daten in Microsoft Datave
 
 1. Warten Sie, bis der Speichervorgang abgeschlossen ist, und wählen Sie dann **Veröffentlichen** aus.
 
-1. Wählen Sie die Registerkarte **Übersicht** aus.
-
-1. Wählen Sie im Bereich „Details“ die Option **Bearbeiten** aus.
-
-1. Umbenennen des Agent-Flow `Create Booking Request`
-
-1. Wählen Sie **Speichern**.
-
 ### Aufgabe 2.2: Überprüfen der Tools
 
 1. Wählen Sie **Agents** aus, und öffnen Sie den Agent **Immobilienbuchungsdienst**.
@@ -257,7 +245,7 @@ Microsoft Copilot Studio kann mithilfe von Agent-Flows Daten in Microsoft Datave
 
 1. Wählen Sie das Thema **Immobilienbesichtigung buchen**.
 
-1. Wählen Sie das Symbol **+** unterhalb des Knotens **An welchem Datum und zu welcher Uhrzeit möchten Sie die Immobilie sehen?** aus, wählen Sie **Tool hinzufügen** und dann den Flow **Buchungsanfrage erstellen** aus.
+1. Wählen Sie das Symbol **+** unterhalb des Knotens **Nachricht** unten aus, wählen Sie **Tool hinzufügen** aus, und wählen Sie dann den Flow **Buchungsanfrage erstellen** aus.
 
 1. Wählen Sie die Variable **PropertyId** für den Eingabeparameter **PropertyId**.
 
@@ -283,20 +271,13 @@ Microsoft Copilot Studio kann mithilfe von Agent-Flows Daten in Microsoft Datave
 
 1. Wenn sie nicht aktiviert ist, aktivieren Sie **Nachverfolgen der Themenverläufe**.
 
-1. Wählen Sie das Symbol **Neue Konversation beginnen** (Aktualisieren) oben auf dem Testpanel aus.
+1. Wählen Sie das Symbol **Neue Testsitzung beginnen** oben auf dem Testpanel aus.
 
 1. Wenn die Meldung **Gesprächsbeginn** erscheint, wird Ihr Agent ein Gespräch beginnen. Geben Sie als Antwort einen Triggerausdruck für das Thema ein, das Sie erstellt haben.
 
     `I want to book a real estate showing`
 
-1. Geben Sie die folgenden Informationen ein:
-
-    ```
-    Name: <Your name>
-    ```
-    ```
-    Email address: <Your email address>
-    ```
+1. Geben Sie einen Namen und eine E-Mail-Adresse ein.
 
 1. Nachdem Sie die Informationen angegeben haben, zeigt eine adaptive Karte die eingegebenen Informationen an und fragt, ob die Details korrekt sind. Wählen Sie **Ja** aus.
 
