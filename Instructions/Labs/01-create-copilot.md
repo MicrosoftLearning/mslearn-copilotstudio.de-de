@@ -148,7 +148,7 @@ Sie können *Themen* verwenden, um explizite Antworten auf *Trigger* zu geben, w
 
 Sie können Themen für alle Eingaben hinzufügen, die von Benutzenden erwartet werden. Sie können jedoch nicht realistischerweise davon ausgehen, dass Sie jede Frage vorhersehen können, die gestellt wird. Derzeit verwendet Ihr Agent ein *Konversationsverstärkungs*-Thema, um KI-Antworten aus einem Sprachmodell zu generieren, aber dies führt zu allgemeinen Antworten. Sie müssen eine Wissensquelle bereitstellen, in der die generativen KI-Antworten *verankert werden*, um relevantere Informationen bereitzustellen.
 
-1. Öffnen Sie einen neuen Browser-Tab und laden Sie die [Ausgabenrichtlinie](https://raw.githubusercontent.com/MicrosoftLearning/mslearn-copilotstudio/main/expenses/Expenses_Policy.docx) von `https://github.com/MicrosoftLearning/mslearn-copilotstudio/raw/main/expenses/Expenses_Policy.docx` herunter und speichern Sie sie lokal. Dieses Dokument enthält Details der Spesenrichtlinie für das fiktive Contoso-Unternehmen.
+1. Öffnen Sie eine neue Browserregisterkarte, und navigieren Sie zu `https://github.com/MicrosoftLearning/mslearn-copilotstudio/raw/main/expenses/Expenses_Policy.docx`, um das [Ausgabenrichtliniendokument](https://raw.githubusercontent.com/MicrosoftLearning/mslearn-copilotstudio/main/expenses/Expenses_Policy.docx) lokal herunterzuladen. Dieses Dokument enthält Details der Spesenrichtlinie für das fiktive Contoso-Unternehmen.
 
 1. Kehren Sie zur Browserregisterkarte für Copilot Studio zurück und schließen Sie das Fenster **Agent testen**, um die Seite besser sehen zu können. Wählen Sie dann die Registerkarte **Wissen**, um die in Ihrem Agent definierten Wissensquellen zu sehen (derzeit sollten keine vorhanden sein).
 
@@ -160,7 +160,7 @@ Sie können Themen für alle Eingaben hinzufügen, die von Benutzenden erwartet 
 
 1. Laden Sie im Abschnitt **Datei hochladen** das zuvor heruntergeladene Dokument mit den Spesenrichtlinien hoch und fügen Sie es dem Wissen Ihres Agents hinzu.
 
-    > **Hinweis:** Nach dem Hochladen der Datei müssen Sie warten, bis sie indiziert ist. Dies kann 10 Minuten (oder länger) dauern. Jetzt wäre ein guter Zeitpunkt für eine Kaffeepause, während Sie das [Ausgabenrichtlinien-Dokument](https://github.com/MicrosoftLearning/mslearn-copilotstudio/raw/main/expenses/Expenses_Policy.docx) unter `https://github.com/MicrosoftLearning/mslearn-copilotstudio/raw/main/expenses/Expenses_Policy.docx` in einem anderen Browser-Tab durchsehen!
+    > **Hinweis:** Nach dem Hochladen der Datei müssen Sie warten, bis sie indiziert ist. Dies kann 10 Minuten (oder länger) dauern. Jetzt wäre ein guter Zeitpunkt für eine Kaffeepause, während Sie das [Ausgabenrichtliniendokument](https://github.com/MicrosoftLearning/mslearn-copilotstudio/raw/main/expenses/Expenses_Policy.docx) in einer anderen Browserregisterkarte überprüfen. Wenn die Indizierung noch nicht abgeschlossen ist, können Sie zum nächsten Lab wechseln und zurückkehren, um den Rest dieses Labs abzuschließen, sobald er abgeschlossen ist. 
 
 1. Wenn die Datei fertig ist, rufen Sie die Seite **Themen** auf und öffnen Sie das Systemthema **Unterhaltungsförderung**. Erinnern Sie sich daran, dass dieses Thema durch eine unbekannte Absicht getriggert wird und dann versucht, eine generative KI-Antwort auf der Grundlage von Datenquellen zu erstellen, die Wissen enthalten, wie z. B. die von Ihnen hochgeladene Datei.
 
@@ -184,7 +184,7 @@ Sie können Themen für alle Eingaben hinzufügen, die von Benutzenden erwartet 
 
 Jetzt, da Sie einen funktionierenden Agent haben, können Sie ihn veröffentlichen, damit andere ihn verwenden können. Die verfügbaren Kanäle, über die Sie Ihren Agent übermitteln können, hängen von der Art der Authentifizierung ab, die Sie verwenden möchten, um den Zugriff darauf einzuschränken. In diesem Fall geben Sie den Zugriff für alle frei und veröffentlichen den Agent zur Verwendung auf einer Demo-Website.
 
-1. Blenden Sie den Bereich **Agenten testen** aus. Wählen Sie dann oben auf der Seite die Registerkarte **Kanäle** und prüfen Sie die Kanäle, auf denen Sie Ihren Agent einsetzen können. Die verfügbaren Kanäle hängen von den Authentifizierungseinstellungen für Ihren Agent ab.
+1. Wählen Sie oben auf der Seite die Registerkarte **Kanäle**aus, und prüfen Sie die Kanäle, auf denen Sie Ihren Agent bereitstellen können. Die verfügbaren Kanäle hängen von den Authentifizierungseinstellungen für Ihren Agent ab.
 1. Wählen Sie oben auf der Seite **Einstellungen** aus.
 1. Wählen Sie im Bereich **Einstellungen** auf der Seite **Sicherheit** die Option **Authentifizierung**. Wählen Sie anschließend die Option **Keine Authentifizierung** und **speichern** Sie die Änderungen an der Konfiguration und **speichern** erneut (womit Sie bestätigen, dass Sie den Zugriff auf den Agent für alle Personen ermöglichen wollen).
 1. Schließen Sie den Bereich **Einstellungen**. Rufen Sie dann die Seite **Kanäle** auf.
@@ -204,13 +204,14 @@ Jetzt, da Sie einen funktionierenden Agent haben, können Sie ihn veröffentlich
         "What are the expense limits for flights?"`
         ```
 
-1. Klicken Sie auf **Speichern**, um die Einstellungen zu speichern. Kopieren Sie dann **den Link** zur Demowebsite Ihres Agents in die Zwischenablage.
+1. Klicken Sie auf **Speichern**, um die Einstellungen zu speichern.
+2. Kopieren Sie dann den Link zur Demowebsite Ihres Agents in die Zwischenablage, indem Sie **Kopieren** auswählen.
 1. Navigieren Sie auf einer neuen Browserregisterkarte zu der URL, die Sie kopiert haben, um die Demowebsite zu öffnen, die ähnlich wie folgt aussehen sollte:
 
     ![Screenshot der Demowebsite für einen Agent.](media/demo-website.png)
 
 1. Geben Sie die Nachricht ein `What are the expense limits for meals?` und sehen Sie sich die Antwort an.
-1. Probieren Sie noch ein paar Fragen aus und sehen Sie sich die Antworten Ihres Agents an. Er wird nur über eingeschränkte Funktionen verfügen, sollte aber in der Lage sein, relevante Antworten auf Fragen zu Spesenabrechnungen zu geben.
+1. Probieren Sie noch ein paar Fragen aus und sehen Sie sich die Antworten Ihres Agents an. Er wird nur über eingeschränkte Funktionen verfügen, sollte aber in der Lage sein, relevante Antworten auf Fragen zu Spesenabrechnungen zu geben. Sobald Sie damit fertig sind, diesen Agent zu erkunden, können Sie Ihr Browserfenster schließen.
 
 ## Herausforderung
 

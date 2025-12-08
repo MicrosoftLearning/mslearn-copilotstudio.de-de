@@ -41,7 +41,11 @@ Diese Übung dauert etwa **30** Minuten.
 
 1. Wählen Sie die Schaltfläche **Einstellungen** oben rechts auf dem Bildschirm.
 
-1. Stellen Sie im Abschnitt **Details** die Orchestrierung auf **Aktiviert** um.
+1. Stellen Sie im Abschnitt **Details** die Orchestrierung auf **Ja** um.
+
+1. Wählen Sie **Speichern**.
+
+1. Schließen Sie das Fenster Einstellungen.
 
 ### Aufgabe 1.2: Verwenden von generativen Antworten im Thema „Unterhaltungsförderung“
 
@@ -55,7 +59,7 @@ Diese Übung dauert etwa **30** Minuten.
 
 ### Aufgabe 1.3: Konfigurieren der Authentifizierung
 
-1. Wählen Sie die Auslassungspunkte (**...**) > **Einstellungen** oben rechts auf dem Bildschirm aus.
+1. Wählen Sie oben rechts auf dem Bildschirm **Einstellungen** aus.
 
 1. Wählen Sie die Registerkarte **Sicherheit** .
 
@@ -67,7 +71,7 @@ Diese Übung dauert etwa **30** Minuten.
 
 1. Wählen Sie **Speichern**.
 
-1. Schließen Sie das Menü **Einstellungen**, indem Sie das **X** in der oberen rechten Ecke von Copilot Studio auswählen.
+1. Schließen Sie das Fenster Einstellungen.
 
 1. Wählen Sie **Veröffentlichen** und wählen Sie erneut **Veröffentlichen** aus.
 
@@ -85,13 +89,11 @@ Diese Übung dauert etwa **30** Minuten.
 
     ![Screenshot des Hinzufügens von Websitewissen.](../media/add-dataverse-knowedge-step1.png)
 
-1. Wählen Sie **Hinzufügen**.
+1. Wählen Sie **Zum Agent hinzufügen** aus.
 
 ### Aufgabe 2.2. Hinzufügen von Wissen aus Dateien
 
-1. Laden Sie diese [**Microsoft Fallstudie**](https://download.microsoft.com/documents/customerevidence/Files/4000007499/SummitRealtyCaseStudy.docx) oder [**SummitRealtyCaseStudy.docx**](../../Allfiles/SummitRealtyCaseStudy.docx) von GitHub herunter.
-
-> ℹ️**HINWEIS:** Der Link zur Microsoft-Fallstudie ist folgender: `https://download.microsoft.com/documents/customerevidence/Files/4000007499/SummitRealtyCaseStudy.docx`
+1. Öffnen Sie ein neues Fenster und navigieren Sie zu `https://download.microsoft.com/documents/customerevidence/Files/4000007499/SummitRealtyCaseStudy.docx`, um die Datei [**Microsoft-Fallstudie**](https://download.microsoft.com/documents/customerevidence/Files/4000007499/SummitRealtyCaseStudy.docx) herunterzuladen.
 
 1. Wählen Sie **+ Wissen hinzufügen**.
 
@@ -99,7 +101,7 @@ Diese Übung dauert etwa **30** Minuten.
 
     ![Screenshot des Hinzufügens von Dateikenntnissen.](../media/add-file-knowledge.png)
 
-1. Wählen Sie **Hinzufügen**.
+1. Wählen Sie **Zum Agent hinzufügen** aus.
 
     ![Screenshot des Wissens.](../media/knowledge-added.png)
 
@@ -117,7 +119,7 @@ Diese Übung dauert etwa **30** Minuten.
 
 1. Wählen Sie das Symbol **+** unter dem Knoten **Bedingungen**, wählen Sie **Erweitert** und wählen Sie **Generative Antworten**.
 
-1. Wählen Sie die Registerkarte **System** und wählen Sie **Activity.Text** für das Feld **Eingabe**.
+1. Wählen Sie im Feld **Eingabe** die Registerkarte **System** aus, und wählen Sie **Activity.Text** aus.
 
 1. Wählen Sie **Bearbeiten** unter **Datenquellen** aus.
 
@@ -138,12 +140,6 @@ Diese Übung dauert etwa **30** Minuten.
 ### Aufgabe 4.1: Testen des Agent-Wissens
 
 1. Falls noch nicht geöffnet, wählen Sie die Schaltfläche **Test** in der oberen rechten Ecke des Bildschirms, um das Bedienfeld für Tests zu öffnen.
-
-1. Wählen Sie das Symbol **Konversationskarte** am oberen Rand des Testfelds oben rechts auf dem Bildschirm.
-
-    ![Screenshot der Konversationskarte des Testbedienfeldes.](../media/test-pane-conversation-map.png)
-
-1. Wählen Sie **Ein** aus.
 
 1. Wählen Sie das Symbol **Neue Konversation beginnen** oben auf dem Bedienfeld für Tests.
 
